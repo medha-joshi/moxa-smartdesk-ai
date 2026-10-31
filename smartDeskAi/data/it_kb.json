@@ -1,0 +1,247 @@
+[
+  {
+    "id": "it_kb0001",
+    "category": "Access & Accounts",
+    "subcategory": "Password Resets",
+    "question": "How do I reset my password if I forgot it?",
+    "answer": "Go to the Synergy Inc self-service password reset portal and click \"Forgot password.\" Verify your identity using your registered mobile number, personal email, or MFA app, then create a new password. If you can't complete the reset, contact the IT Service Desk for help."
+  },
+  {
+    "id": "it_kb0002",
+    "category": "Access & Accounts",
+    "subcategory": "Password Resets",
+    "question": "What are the password requirements at Synergy Inc?",
+    "answer": "Passwords must be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols. You can't reuse your last 10 passwords, and you shouldn't include personal information such as your name or birthday. Passwords expire every 90 days, and you'll receive a reminder before then."
+  },
+  {
+    "id": "it_kb0003",
+    "category": "Access & Accounts",
+    "subcategory": "SSO & MFA",
+    "question": "How do I sign in to company applications using single sign-on (SSO)?",
+    "answer": "Open the Synergy Inc SSO portal and sign in with your work email and password, then approve the multi-factor authentication (MFA) prompt. Your approved applications appear on your dashboard, and you can open them without signing in again. If an app you need is missing, submit an access request through the IT service portal."
+  },
+  {
+    "id": "it_kb0004",
+    "category": "Access & Accounts",
+    "subcategory": "SSO & MFA",
+    "question": "How do I set up or reset MFA on a new phone?",
+    "answer": "If you still have your old phone, open your account security settings, choose to add a new authenticator device, and scan the QR code with the authenticator app on your new phone. Then remove the old device. If you no longer have your old phone, contact the IT Service Desk, who will verify your identity and reset your MFA so you can register the new device."
+  },
+  {
+    "id": "it_kb0005",
+    "category": "Access & Accounts",
+    "subcategory": "Active Directory",
+    "question": "My account is locked out. How do I unlock it?",
+    "answer": "Accounts are locked automatically after 5 failed sign-in attempts. The lock clears on its own after 30 minutes, or you can unlock it right away through the self-service portal. If you still can't sign in, contact the IT Service Desk and they will verify your identity and unlock your account."
+  },
+  {
+    "id": "it_kb0006",
+    "category": "Access & Accounts",
+    "subcategory": "Active Directory",
+    "question": "How do I request access to a shared folder or security group?",
+    "answer": "Submit a request through the IT service portal that names the folder or group and explains why you need access. Your manager and the resource owner must approve it, and access is usually granted within 1 to 2 business days. You'll receive a confirmation email once it's complete."
+  },
+  {
+    "id": "it_kb0007",
+    "category": "Hardware",
+    "subcategory": "Workstations",
+    "question": "My computer is running slowly. What should I do?",
+    "answer": "First, restart your computer, close any programs you aren't using, and make sure all pending updates are installed. Free up disk space by deleting unneeded files and emptying the recycle bin. If it's still slow, submit a ticket with a description of when the slowness happens and which applications are affected."
+  },
+  {
+    "id": "it_kb0008",
+    "category": "Hardware",
+    "subcategory": "Workstations",
+    "question": "How do I request a new or replacement laptop?",
+    "answer": "Submit a hardware request through the IT service portal with your manager's approval. Standard laptops are refreshed every 3 to 4 years, and devices that are damaged or no longer working can be replaced sooner after IT reviews them. If your laptop is lost or stolen, report it to the IT Service Desk immediately."
+  },
+  {
+    "id": "it_kb0009",
+    "category": "Hardware",
+    "subcategory": "Mobile",
+    "question": "Can I access company email on my personal phone?",
+    "answer": "Yes, if you enroll your phone in the company's mobile device management (MDM) program and use the approved email app. Your phone must have a passcode and device encryption turned on. The company can remotely remove only company data from the phone if it is lost or you leave Synergy Inc, and your personal data is not affected."
+  },
+  {
+    "id": "it_kb0010",
+    "category": "Hardware",
+    "subcategory": "Mobile",
+    "question": "What should I do if my company phone is lost or stolen?",
+    "answer": "Report it to the IT Service Desk and IT Security right away so the device can be remotely locked and, if necessary, wiped. Change your work passwords from another device. If the phone was stolen, also file a police report and share the report number with IT."
+  },
+  {
+    "id": "it_kb0011",
+    "category": "Hardware",
+    "subcategory": "Peripherals",
+    "question": "My external monitor isn't working. How do I fix it?",
+    "answer": "Check that the monitor is powered on and that the cables are firmly connected at both ends. Make sure the monitor is set to the correct input source, and try a different cable or port. On Windows you can press the Windows key and P to choose a display mode, then restart your computer. If it still doesn't work, submit a ticket with the monitor model."
+  },
+  {
+    "id": "it_kb0012",
+    "category": "Hardware",
+    "subcategory": "Peripherals",
+    "question": "How do I request a keyboard, mouse, headset, or other peripheral?",
+    "answer": "Submit a request through the IT service portal. Standard peripherals such as keyboards, mice, and headsets are provided from stock, usually within 2 to 3 business days. Specialty or higher-cost items, such as ergonomic equipment or additional monitors, may need manager approval."
+  },
+  {
+    "id": "it_kb0013",
+    "category": "Network & Connectivity",
+    "subcategory": "Wi-Fi",
+    "question": "How do I connect to the office Wi-Fi?",
+    "answer": "Select the Synergy Inc corporate network from your list of Wi-Fi networks and sign in with your work email and password. Visitors and personal devices should use the guest network, and visitors can get a temporary access code from reception. Personal devices are not allowed on the corporate network."
+  },
+  {
+    "id": "it_kb0014",
+    "category": "Network & Connectivity",
+    "subcategory": "Wi-Fi",
+    "question": "Why is my Wi-Fi slow or dropping?",
+    "answer": "Move closer to a wireless access point, turn Wi-Fi off and on again, or forget the network and reconnect. Restarting your device also helps. If the problem continues, submit a ticket with your location, the time it happens, and whether coworkers nearby are affected, so IT can check the access point."
+  },
+  {
+    "id": "it_kb0015",
+    "category": "Network & Connectivity",
+    "subcategory": "VPN",
+    "question": "How do I connect to the company VPN?",
+    "answer": "Install the company-approved VPN client from the software center, open it, and sign in with your work credentials and MFA. Connect to the VPN before you try to reach internal systems, files, or applications while you're working remotely. Disconnect when you've finished working."
+  },
+  {
+    "id": "it_kb0016",
+    "category": "Network & Connectivity",
+    "subcategory": "VPN",
+    "question": "My VPN keeps disconnecting. What should I do?",
+    "answer": "Make sure your home internet connection is stable, then close and reopen the VPN client. Check that you're using the latest version of the client, and try a different network if possible. Avoid letting your computer go into sleep mode while connected. If it keeps happening, submit a ticket with the error message and the time of the disconnection."
+  },
+  {
+    "id": "it_kb0017",
+    "category": "Network & Connectivity",
+    "subcategory": "Remote Access",
+    "question": "How do I access my office desktop or internal files from home?",
+    "answer": "Connect to the company VPN first, then use the approved remote desktop tool or your cloud file storage to reach your files. Remote access to an office desktop needs your manager's approval, which you can request through the IT service portal. Never use personal remote access tools that haven't been approved by IT."
+  },
+  {
+    "id": "it_kb0018",
+    "category": "Network & Connectivity",
+    "subcategory": "Remote Access",
+    "question": "Can I work from a public network or while traveling?",
+    "answer": "Yes, but you must always use the company VPN on public or unfamiliar Wi-Fi networks such as cafes, hotels, and airports. Don't use public computers for work, keep your screen out of sight of others, and lock your device when you step away. If you're traveling internationally, let IT know in advance, since access may be restricted in some countries."
+  },
+  {
+    "id": "it_kb0019",
+    "category": "Software & Applications",
+    "subcategory": "Email & Office",
+    "question": "How do I set up my company email on Outlook or my phone?",
+    "answer": "Install the approved Outlook app, enter your work email address, and sign in through the company's single sign-on with MFA. For a phone, you'll also need to enroll the device in the company's mobile device management program. If setup fails, contact the IT Service Desk."
+  },
+  {
+    "id": "it_kb0020",
+    "category": "Software & Applications",
+    "subcategory": "Email & Office",
+    "question": "My mailbox is full. How do I free up space?",
+    "answer": "Delete large attachments and old messages you no longer need, and empty your Deleted Items and Junk folders. You can also archive older emails to free up space. If you need a larger mailbox for business reasons, submit a request through the IT service portal."
+  },
+  {
+    "id": "it_kb0021",
+    "category": "Software & Applications",
+    "subcategory": "ERP/CRM",
+    "question": "How do I get access to the ERP or CRM system?",
+    "answer": "Submit an access request through the IT service portal, naming the system and the role you need. Your manager and the system owner must approve the request, and some roles require completing training first. Access is usually set up within 3 business days after approval."
+  },
+  {
+    "id": "it_kb0022",
+    "category": "Software & Applications",
+    "subcategory": "ERP/CRM",
+    "question": "Who do I contact if the ERP or CRM system is down or showing errors?",
+    "answer": "First check the IT status page to see if the issue is already known. If it isn't, submit a high-priority ticket with screenshots, the exact error message, and the steps that led to it. For urgent outages that stop business operations, call the IT Service Desk directly."
+  },
+  {
+    "id": "it_kb0023",
+    "category": "Software & Applications",
+    "subcategory": "License Requests",
+    "question": "How do I request a software license?",
+    "answer": "Submit a request through the IT service portal with the software name, the business reason you need it, and your manager's approval. IT checks whether an approved alternative or an existing license is available. Approved software is made available through the company software center, and costs are charged to your department."
+  },
+  {
+    "id": "it_kb0024",
+    "category": "Software & Applications",
+    "subcategory": "License Requests",
+    "question": "Can I install software myself on my work computer?",
+    "answer": "You can install software that's listed in the company software center. Any other software needs to be reviewed and approved by IT Security first, since unapproved software can create security and licensing risks. Unapproved software found on company devices may be removed."
+  },
+  {
+    "id": "it_kb0025",
+    "category": "Security & Policy",
+    "subcategory": "Phishing Reporting",
+    "question": "How do I report a suspicious email or phishing attempt?",
+    "answer": "Don't click any links or open attachments. Use the \"Report Phishing\" button in Outlook, or forward the email as an attachment to the IT Security mailbox, then delete it. Reporting quickly helps IT block the sender and protect your coworkers."
+  },
+  {
+    "id": "it_kb0026",
+    "category": "Security & Policy",
+    "subcategory": "Phishing Reporting",
+    "question": "What should I do if I clicked a link or entered my password on a suspicious site?",
+    "answer": "Contact the IT Service Desk or IT Security immediately and don't wait to see if anything happens. If you entered your password, change it right away from a trusted device. IT will check your device and account activity and may reset your sessions or MFA as a precaution."
+  },
+  {
+    "id": "it_kb0027",
+    "category": "Security & Policy",
+    "subcategory": "Data Privacy",
+    "question": "How should I handle confidential or customer data?",
+    "answer": "Share confidential data only with people who need it for their work, and use approved, encrypted tools and storage. Don't store it on personal devices or unapproved cloud services, and lock your screen when you step away. Report any suspected data loss or exposure to IT Security immediately."
+  },
+  {
+    "id": "it_kb0028",
+    "category": "Security & Policy",
+    "subcategory": "Data Privacy",
+    "question": "Can I use personal cloud storage or USB drives for work files?",
+    "answer": "No. Work files must be stored in company-approved locations such as the corporate file share or cloud storage. USB drives are restricted and may only be used with IT approval, and they must be encrypted. This protects company and customer data from accidental loss or exposure."
+  },
+  {
+    "id": "it_kb0029",
+    "category": "Security & Policy",
+    "subcategory": "Compliance",
+    "question": "Is security awareness training mandatory?",
+    "answer": "Yes. All employees must complete security awareness training within 30 days of joining and then once every year. The training covers topics such as phishing, password safety, and data protection. Employees who don't complete it on time may have their access restricted until it is done."
+  },
+  {
+    "id": "it_kb0030",
+    "category": "Security & Policy",
+    "subcategory": "Compliance",
+    "question": "How long does Synergy Inc keep records and data?",
+    "answer": "Records are kept according to the company's data retention policy and applicable legal requirements, and the retention period depends on the type of record. Don't delete anything that is subject to a legal hold. If you're unsure how long to keep a document or whether you can delete it, contact the Compliance team."
+  },
+  {
+    "id": "it_kb0031",
+    "category": "Access & Accounts",
+    "subcategory": "Password Resets",
+    "question": "How do I change my password before it expires?",
+    "answer": "Sign in to the self-service password portal, choose \"Change password,\" and enter your current password followed by a new one that meets the company requirements. On a company laptop you can also press Ctrl+Alt+Delete and select \"Change a password.\" After changing it, update the saved password on your phone and any other devices to avoid being locked out."
+  },
+  {
+    "id": "it_kb0032",
+    "category": "Hardware",
+    "subcategory": "Workstations",
+    "question": "How do I get help with a computer that won't start?",
+    "answer": "Check that the power cable and charger are firmly connected and that the battery is charged. Hold the power button for 10 seconds, release it, and then try turning the computer on again. If it still won't start, submit a high-priority ticket or contact the IT Service Desk, and don't try to open the device yourself."
+  },
+  {
+    "id": "it_kb0033",
+    "category": "Network & Connectivity",
+    "subcategory": "VPN",
+    "question": "Why can't I reach internal websites or file shares from home?",
+    "answer": "Make sure you are connected to the company VPN, since internal resources are not available from the public internet. If the VPN is connected but you still can't reach a site, disconnect and reconnect, then restart your browser. If the problem continues, submit a ticket with the name of the site or share and any error message you see."
+  },
+  {
+    "id": "it_kb0034",
+    "category": "Software & Applications",
+    "subcategory": "Email & Office",
+    "question": "How do I set up an out-of-office message in my email?",
+    "answer": "In Outlook, open the automatic replies setting, turn it on, and enter the dates you will be away along with your message. You can write one message for colleagues inside Synergy Inc and another for external senders. Include the name and contact details of a backup person, and turn the reply off when you return if it doesn't end automatically."
+  },
+  {
+    "id": "it_kb0035",
+    "category": "Security & Policy",
+    "subcategory": "Phishing Reporting",
+    "question": "How can I tell if an email is a phishing attempt?",
+    "answer": "Be cautious of emails that create urgency, ask for passwords or payment, or come from addresses that look slightly different from the real sender. Hover over links to check where they lead, and watch for unexpected attachments or spelling errors. If you aren't sure, don't click anything, and report it using the \"Report Phishing\" button in Outlook or contact IT Security."
+  }
+]
