@@ -307,6 +307,29 @@ Moxa: IKCS-42 "Cracked laptop screen" is In Progress. Latest comment from IT: ..
 
 ---
 
+## Tests
+
+```bash
+uv run pytest                      # everything (~1s)
+uv run pytest tests/unit           # unit tests only
+uv run pytest -m integration       # end-to-end graph tests only
+```
+
+The tests need no API keys or network: `tests/conftest.py` overrides `.env` with dummy values and turns
+LangSmith tracing off, so they never call OpenAI, Jira, LangSmith or the on-disk Qdrant data.
+
+- **Unit tests** (`tests/unit/`) cover sign-in and password hashing, routing helpers (email resolution,
+  keyword fallback, message splitting), ticket-confirmation parsing, the ticket tools and Jira wrapper
+  (against a fake Jira), citations and search-result formatting, the synthesizer, and CLI helpers.
+- **Integration tests** (`tests/integration/`) run the real compiled LangGraph graph with a scripted chat
+  model, in-memory knowledge bases and stubbed Jira calls: KB answers with sources, mixed HR + IT messages
+  answered in parallel and merged, router and agent failures, ticket creation through `interrupt()`/resume
+  (edit, confirm, decline, web-UI edits, unknown email), and per-thread memory of the employee's email.
+
+The live quality checks against the real models and knowledge bases are the evaluations below.
+
+---
+
 ## Evaluation
 
 ### Routing decisions
