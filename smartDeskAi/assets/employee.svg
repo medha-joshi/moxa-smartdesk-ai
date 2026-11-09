@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <clipPath id="avatar"><circle cx="64" cy="64" r="64"/></clipPath>
+  <g clip-path="url(#avatar)">
+    <circle cx="64" cy="64" r="64" fill="#D5DDE5"/>
+    <circle cx="64" cy="52" r="23" fill="#7A8A9A"/>
+    <path d="M20 128 Q22 86 64 84 Q106 86 108 128Z" fill="#7A8A9A"/>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<svg width="100%" viewBox="0 0 680 650" xmlns="http://www.w3.org/2000/svg" style="font-family:system-ui,sans-serif" role="img" aria-label="Moxa high-level architecture">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<style>
+  .box-ui { fill: #FDF4FF; stroke: #A21CAF; }
+  .box-cli { fill: #F1F5F9; stroke: #475569; }
+  .box-orch { fill: #FEF3C7; stroke: #B45309; }
+  .box-hr { fill: #FFE4E6; stroke: #BE123C; }
+  .box-it { fill: #CFFAFE; stroke: #0E7490; }
+  .box-synth { fill: #D1FAE5; stroke: #047857; }
+  .tool-hr { fill: #FFE4E6; stroke: #BE123C; stroke-dasharray: 4 2; }
+  .tool-it { fill: #CFFAFE; stroke: #0E7490; stroke-dasharray: 4 2; }
+  .tool-jira { fill: #E0E7FF; stroke: #4338CA; stroke-dasharray: 4 2; }
+  .title { font-size: 14px; font-weight: 500; }
+  .sub { font-size: 12px; fill: #64748B; }
+  .title-ui { fill: #701A75; }
+  .title-cli { fill: #1E293B; }
+  .title-orch { fill: #78350F; }
+  .title-hr { fill: #881337; }
+  .title-it { fill: #164E63; }
+  .title-jira { fill: #312E81; }
+  .title-synth { fill: #064E3B; }
+  .arr { stroke: #94A3B8; stroke-width: 1.5; }
+  .label { font-size: 12px; fill: #64748B; font-style: italic; }
+  .side-label { font-size: 12px; fill: #94A3B8; }
+  .legend { font-size: 11px; fill: #94A3B8; }
+</style>
+
+<!-- Inputs -->
+<rect class="box-ui" x="80" y="30" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-ui" x="160" y="50" text-anchor="middle" dominant-baseline="central">Web UI</text>
+<text class="sub" x="160" y="68" text-anchor="middle" dominant-baseline="central">Streamlit · app.py</text>
+<rect class="box-cli" x="440" y="30" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-cli" x="520" y="50" text-anchor="middle" dominant-baseline="central">CLI</text>
+<text class="sub" x="520" y="68" text-anchor="middle" dominant-baseline="central">main.py</text>
+
+<!-- Orchestrator -->
+<rect class="box-orch" x="210" y="130" width="260" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-orch" x="340" y="150" text-anchor="middle" dominant-baseline="central">Orchestrator</text>
+<text class="sub" x="340" y="168" text-anchor="middle" dominant-baseline="central">structured routing · remembers email</text>
+
+<!-- Specialist agents -->
+<rect class="box-hr" x="75" y="240" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-hr" x="155" y="260" text-anchor="middle" dominant-baseline="central">HR agent</text>
+<text class="sub" x="155" y="278" text-anchor="middle" dominant-baseline="central">hr_agent.py</text>
+<rect class="box-it" x="445" y="240" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-it" x="525" y="260" text-anchor="middle" dominant-baseline="central">IT agent</text>
+<text class="sub" x="525" y="278" text-anchor="middle" dominant-baseline="central">it_agent.py</text>
+
+<!-- Tools -->
+<rect class="tool-hr" x="45" y="350" width="150" height="56" rx="6" stroke-width="0.5"/>
+<text class="title title-hr" x="120" y="366" text-anchor="middle" dominant-baseline="central">HR KB search</text>
+<text class="sub title-hr" x="120" y="386" text-anchor="middle" dominant-baseline="central">Qdrant hybrid RAG</text>
+<rect class="tool-jira" x="265" y="350" width="150" height="56" rx="6" stroke-width="0.5"/>
+<text class="title title-jira" x="340" y="366" text-anchor="middle" dominant-baseline="central">Jira ticket tools</text>
+<text class="sub title-jira" x="340" y="386" text-anchor="middle" dominant-baseline="central">create · list · status</text>
+<rect class="tool-it" x="485" y="350" width="150" height="56" rx="6" stroke-width="0.5"/>
+<text class="title title-it" x="560" y="366" text-anchor="middle" dominant-baseline="central">IT KB search</text>
+<text class="sub title-it" x="560" y="386" text-anchor="middle" dominant-baseline="central">Qdrant hybrid RAG</text>
+<text class="label" x="340" y="422" text-anchor="middle" dominant-baseline="central">HITL: interrupt() to confirm ticket</text>
+
+<!-- Synthesizer -->
+<rect class="box-synth" x="210" y="470" width="260" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-synth" x="340" y="490" text-anchor="middle" dominant-baseline="central">Synthesizer</text>
+<text class="sub" x="340" y="508" text-anchor="middle" dominant-baseline="central">merges answers · adds source citations</text>
+
+<!-- Outputs -->
+<rect class="box-ui" x="80" y="575" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-ui" x="160" y="595" text-anchor="middle" dominant-baseline="central">Chat reply</text>
+<text class="sub" x="160" y="613" text-anchor="middle" dominant-baseline="central">Web UI · sources panel</text>
+<rect class="box-cli" x="440" y="575" width="160" height="56" rx="8" stroke-width="0.5"/>
+<text class="title title-cli" x="520" y="595" text-anchor="middle" dominant-baseline="central">Text output</text>
+<text class="sub" x="520" y="613" text-anchor="middle" dominant-baseline="central">Terminal / CLI</text>
+
+<!-- Inputs → Orchestrator (fixed) -->
+<path d="M160 86 L160 105 L280 105 L280 128" fill="none" class="arr" marker-end="url(#arrow)"/>
+<path d="M520 86 L520 105 L400 105 L400 128" fill="none" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Orchestrator → Agents (conditional, parallel) -->
+<path d="M270 186 L270 210 L155 210 L155 238" fill="none" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<path d="M410 186 L410 210 L525 210 L525 238" fill="none" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<text class="label" x="340" y="223" text-anchor="middle" dominant-baseline="central">Send() — parallel dispatch</text>
+
+<!-- Agents → Tools (conditional) -->
+<line x1="120" y1="296" x2="120" y2="348" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<line x1="560" y1="296" x2="560" y2="348" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<path d="M230 296 L230 320 L300 320 L300 348" fill="none" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+<path d="M450 296 L450 320 L380 320 L380 348" fill="none" class="arr" stroke-dasharray="5 3" marker-end="url(#arrow)"/>
+
+<!-- Tool results → Agents (tool-calling loop) -->
+<path d="M45 378 L40 378 L40 268 L73 268" fill="none" class="arr" marker-end="url(#arrow)"/>
+<path d="M635 378 L650 378 L650 268 L607 268" fill="none" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Agents → Synthesizer (fixed) -->
+<path d="M205 296 L205 445 L280 445 L280 468" fill="none" class="arr" marker-end="url(#arrow)"/>
+<path d="M475 296 L475 445 L400 445 L400 468" fill="none" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Synthesizer → Outputs (fixed) -->
+<path d="M270 526 L270 550 L160 550 L160 573" fill="none" class="arr" marker-end="url(#arrow)"/>
+<path d="M410 526 L410 550 L520 550 L520 573" fill="none" class="arr" marker-end="url(#arrow)"/>
+
+<!-- Checkpointer -->
+<rect x="2" y="120" width="32" height="420" rx="10" fill="none" stroke="#94A3B8" stroke-width="0.5" stroke-dasharray="4 3"/>
+<text class="side-label" x="18" y="330" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 18 330)">InMemorySaver (session memory)</text>
+
+<!-- Legend -->
+<line x1="500" y1="478" x2="530" y2="478" stroke="#94A3B8" stroke-width="1.5"/>
+<text class="legend" x="536" y="482">Fixed edge</text>
+<line x1="500" y1="496" x2="530" y2="496" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text class="legend" x="536" y="500">Conditional edge</text>
+</svg>

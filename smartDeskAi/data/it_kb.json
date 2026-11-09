@@ -4,244 +4,489 @@
     "category": "Access & Accounts",
     "subcategory": "Password Resets",
     "question": "How do I reset my password if I forgot it?",
-    "answer": "Go to the Synergy Inc self-service password reset portal and click \"Forgot password.\" Verify your identity using your registered mobile number, personal email, or MFA app, then create a new password. If you can't complete the reset, contact the IT Service Desk for help."
+    "answer": "Go to the Synergy Inc self-service password reset portal and click \"Forgot password.\" Verify your identity using your registered mobile number, personal email, or MFA app, then create a new password. If you can't complete the reset, contact the IT Service Desk for help.",
+    "alt_questions": [
+      "I can't remember my password, how do I get back in?",
+      "Help! I forgot my login details, what should I do?",
+      "Locked out of my account, need to reset my password.",
+      "What's the process to change my password if I forgot it?",
+      "Can't access my account, how can I recover my password?"
+    ]
   },
   {
     "id": "it_kb0002",
     "category": "Access & Accounts",
     "subcategory": "Password Resets",
     "question": "What are the password requirements at Synergy Inc?",
-    "answer": "Passwords must be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols. You can't reuse your last 10 passwords, and you shouldn't include personal information such as your name or birthday. Passwords expire every 90 days, and you'll receive a reminder before then."
+    "answer": "Passwords must be at least 12 characters long and include a mix of uppercase and lowercase letters, numbers, and symbols. You can't reuse your last 10 passwords, and you shouldn't include personal information such as your name or birthday. Passwords expire every 90 days, and you'll receive a reminder before then.",
+    "alt_questions": [
+      "How long does my password need to be at Synergy?",
+      "What do I need to include in my new password?",
+      "Can I use my old password again?",
+      "When do I have to change my password next?",
+      "What should I avoid using in my password?"
+    ]
   },
   {
     "id": "it_kb0003",
     "category": "Access & Accounts",
     "subcategory": "SSO & MFA",
     "question": "How do I sign in to company applications using single sign-on (SSO)?",
-    "answer": "Open the Synergy Inc SSO portal and sign in with your work email and password, then approve the multi-factor authentication (MFA) prompt. Your approved applications appear on your dashboard, and you can open them without signing in again. If an app you need is missing, submit an access request through the IT service portal."
+    "answer": "Open the Synergy Inc SSO portal and sign in with your work email and password, then approve the multi-factor authentication (MFA) prompt. Your approved applications appear on your dashboard, and you can open them without signing in again. If an app you need is missing, submit an access request through the IT service portal.",
+    "alt_questions": [
+      "How do I log into my work apps with one password?",
+      "Can't access my apps, how do I use the company login system?",
+      "What's the process to get into my work programs using the main login?",
+      "How do I use the company portal to access all my work tools?",
+      "Need help signing into my work stuff with the company account."
+    ]
   },
   {
     "id": "it_kb0004",
     "category": "Access & Accounts",
     "subcategory": "SSO & MFA",
     "question": "How do I set up or reset MFA on a new phone?",
-    "answer": "If you still have your old phone, open your account security settings, choose to add a new authenticator device, and scan the QR code with the authenticator app on your new phone. Then remove the old device. If you no longer have your old phone, contact the IT Service Desk, who will verify your identity and reset your MFA so you can register the new device."
+    "answer": "If you still have your old phone, open your account security settings, choose to add a new authenticator device, and scan the QR code with the authenticator app on your new phone. Then remove the old device. If you no longer have your old phone, contact the IT Service Desk, who will verify your identity and reset your MFA so you can register the new device.",
+    "alt_questions": [
+      "I got a new phone, how do I move my two-factor authentication over?",
+      "Lost my old phone, can't get into my account, what should I do?",
+      "Need to set up my new phone for security codes, any tips?",
+      "Help! I can't access my account after changing phones.",
+      "How do I switch my security app to my new device?"
+    ]
   },
   {
     "id": "it_kb0005",
     "category": "Access & Accounts",
     "subcategory": "Active Directory",
     "question": "My account is locked out. How do I unlock it?",
-    "answer": "Accounts are locked automatically after 5 failed sign-in attempts. The lock clears on its own after 30 minutes, or you can unlock it right away through the self-service portal. If you still can't sign in, contact the IT Service Desk and they will verify your identity and unlock your account."
+    "answer": "Accounts are locked automatically after 5 failed sign-in attempts. The lock clears on its own after 30 minutes, or you can unlock it right away through the self-service portal. If you still can't sign in, contact the IT Service Desk and they will verify your identity and unlock your account.",
+    "alt_questions": [
+      "I can't get into my account, what should I do?",
+      "Help! My login isn't working and I'm locked out.",
+      "Why can't I sign in? It says my account is blocked.",
+      "Locked out of my profile, how can I fix this?",
+      "My account is frozen after too many tries, how do I get back in?"
+    ]
   },
   {
     "id": "it_kb0006",
     "category": "Access & Accounts",
     "subcategory": "Active Directory",
     "question": "How do I request access to a shared folder or security group?",
-    "answer": "Submit a request through the IT service portal that names the folder or group and explains why you need access. Your manager and the resource owner must approve it, and access is usually granted within 1 to 2 business days. You'll receive a confirmation email once it's complete."
+    "answer": "Submit a request through the IT service portal that names the folder or group and explains why you need access. Your manager and the resource owner must approve it, and access is usually granted within 1 to 2 business days. You'll receive a confirmation email once it's complete.",
+    "alt_questions": [
+      "How do I get permission to access a team folder?",
+      "What's the process for joining a security group at work?",
+      "I need to access a shared drive, how do I go about it?",
+      "How can I ask for access to a specific network folder?",
+      "What steps do I take to be added to a work group in the system?"
+    ]
   },
   {
     "id": "it_kb0007",
     "category": "Hardware",
     "subcategory": "Workstations",
     "question": "My computer is running slowly. What should I do?",
-    "answer": "First, restart your computer, close any programs you aren't using, and make sure all pending updates are installed. Free up disk space by deleting unneeded files and emptying the recycle bin. If it's still slow, submit a ticket with a description of when the slowness happens and which applications are affected."
+    "answer": "First, restart your computer, close any programs you aren't using, and make sure all pending updates are installed. Free up disk space by deleting unneeded files and emptying the recycle bin. If it's still slow, submit a ticket with a description of when the slowness happens and which applications are affected.",
+    "alt_questions": [
+      "Why is my PC so slow today?",
+      "My laptop is lagging a lot, what can I do?",
+      "Help! My computer is taking forever to load things.",
+      "My desktop is sluggish, any quick fixes?",
+      "What should I try if my computer is crawling?"
+    ]
   },
   {
     "id": "it_kb0008",
     "category": "Hardware",
     "subcategory": "Workstations",
     "question": "How do I request a new or replacement laptop?",
-    "answer": "Submit a hardware request through the IT service portal with your manager's approval. Standard laptops are refreshed every 3 to 4 years, and devices that are damaged or no longer working can be replaced sooner after IT reviews them. If your laptop is lost or stolen, report it to the IT Service Desk immediately."
+    "answer": "Submit a hardware request through the IT service portal with your manager's approval. Standard laptops are refreshed every 3 to 4 years, and devices that are damaged or no longer working can be replaced sooner after IT reviews them. If your laptop is lost or stolen, report it to the IT Service Desk immediately.",
+    "alt_questions": [
+      "How can I get a new laptop if mine is broken?",
+      "My laptop isn't working anymore, what should I do to get a replacement?",
+      "What's the process for getting a new work laptop?",
+      "I need a new computer, how do I go about requesting one?",
+      "My laptop got stolen, who do I report it to and how do I get a new one?"
+    ]
   },
   {
     "id": "it_kb0009",
     "category": "Hardware",
     "subcategory": "Mobile",
     "question": "Can I access company email on my personal phone?",
-    "answer": "Yes, if you enroll your phone in the company's mobile device management (MDM) program and use the approved email app. Your phone must have a passcode and device encryption turned on. The company can remotely remove only company data from the phone if it is lost or you leave Synergy Inc, and your personal data is not affected."
+    "answer": "Yes, if you enroll your phone in the company's mobile device management (MDM) program and use the approved email app. Your phone must have a passcode and device encryption turned on. The company can remotely remove only company data from the phone if it is lost or you leave Synergy Inc, and your personal data is not affected.",
+    "alt_questions": [
+      "How can I get my work emails on my personal phone?",
+      "Is it possible to check my company email on my own smartphone?",
+      "Can I set up my work email on my personal device?",
+      "What do I need to do to read work emails on my phone?",
+      "Can I use my phone to access my company email account?"
+    ]
   },
   {
     "id": "it_kb0010",
     "category": "Hardware",
     "subcategory": "Mobile",
     "question": "What should I do if my company phone is lost or stolen?",
-    "answer": "Report it to the IT Service Desk and IT Security right away so the device can be remotely locked and, if necessary, wiped. Change your work passwords from another device. If the phone was stolen, also file a police report and share the report number with IT."
+    "answer": "Report it to the IT Service Desk and IT Security right away so the device can be remotely locked and, if necessary, wiped. Change your work passwords from another device. If the phone was stolen, also file a police report and share the report number with IT.",
+    "alt_questions": [
+      "I can't find my work phone, what should I do?",
+      "Help! My company phone got stolen, what's the next step?",
+      "Lost my work mobile, who do I tell?",
+      "My office phone is missing, how do I secure it?",
+      "Someone took my company cell, what actions should I take?"
+    ]
   },
   {
     "id": "it_kb0011",
     "category": "Hardware",
     "subcategory": "Peripherals",
     "question": "My external monitor isn't working. How do I fix it?",
-    "answer": "Check that the monitor is powered on and that the cables are firmly connected at both ends. Make sure the monitor is set to the correct input source, and try a different cable or port. On Windows you can press the Windows key and P to choose a display mode, then restart your computer. If it still doesn't work, submit a ticket with the monitor model."
+    "answer": "Check that the monitor is powered on and that the cables are firmly connected at both ends. Make sure the monitor is set to the correct input source, and try a different cable or port. On Windows you can press the Windows key and P to choose a display mode, then restart your computer. If it still doesn't work, submit a ticket with the monitor model.",
+    "alt_questions": [
+      "Why won't my second screen turn on?",
+      "My monitor is plugged in but not showing anything, what should I do?",
+      "External display isn't detected, how can I fix this?",
+      "Help! My computer isn't recognizing my extra monitor.",
+      "I'm trying to connect a new screen, but it's not working. Any tips?"
+    ]
   },
   {
     "id": "it_kb0012",
     "category": "Hardware",
     "subcategory": "Peripherals",
     "question": "How do I request a keyboard, mouse, headset, or other peripheral?",
-    "answer": "Submit a request through the IT service portal. Standard peripherals such as keyboards, mice, and headsets are provided from stock, usually within 2 to 3 business days. Specialty or higher-cost items, such as ergonomic equipment or additional monitors, may need manager approval."
+    "answer": "Submit a request through the IT service portal. Standard peripherals such as keyboards, mice, and headsets are provided from stock, usually within 2 to 3 business days. Specialty or higher-cost items, such as ergonomic equipment or additional monitors, may need manager approval.",
+    "alt_questions": [
+      "How can I get a new mouse for my desk?",
+      "Where do I go to order a new keyboard?",
+      "I need a headset for work calls, how do I get one?",
+      "What's the process for getting a replacement mouse?",
+      "Can I request an ergonomic keyboard through IT?"
+    ]
   },
   {
     "id": "it_kb0013",
     "category": "Network & Connectivity",
     "subcategory": "Wi-Fi",
     "question": "How do I connect to the office Wi-Fi?",
-    "answer": "Select the Synergy Inc corporate network from your list of Wi-Fi networks and sign in with your work email and password. Visitors and personal devices should use the guest network, and visitors can get a temporary access code from reception. Personal devices are not allowed on the corporate network."
+    "answer": "Select the Synergy Inc corporate network from your list of Wi-Fi networks and sign in with your work email and password. Visitors and personal devices should use the guest network, and visitors can get a temporary access code from reception. Personal devices are not allowed on the corporate network.",
+    "alt_questions": [
+      "Can't get my laptop online at work, what should I do?",
+      "How do I log into the company Wi-Fi with my work email?",
+      "What's the process for connecting my phone to the office internet?",
+      "Where can I find the guest network password for visitors?",
+      "Why can't I use my personal laptop on the office Wi-Fi?"
+    ]
   },
   {
     "id": "it_kb0014",
     "category": "Network & Connectivity",
     "subcategory": "Wi-Fi",
     "question": "Why is my Wi-Fi slow or dropping?",
-    "answer": "Move closer to a wireless access point, turn Wi-Fi off and on again, or forget the network and reconnect. Restarting your device also helps. If the problem continues, submit a ticket with your location, the time it happens, and whether coworkers nearby are affected, so IT can check the access point."
+    "answer": "Move closer to a wireless access point, turn Wi-Fi off and on again, or forget the network and reconnect. Restarting your device also helps. If the problem continues, submit a ticket with your location, the time it happens, and whether coworkers nearby are affected, so IT can check the access point.",
+    "alt_questions": [
+      "Why does my internet keep cutting out?",
+      "My Wi-Fi is acting up and keeps disconnecting, what should I do?",
+      "I'm having trouble with my wireless connection, any tips?",
+      "The internet is super slow today, how can I fix it?",
+      "Why can't I stay connected to the office Wi-Fi?"
+    ]
   },
   {
     "id": "it_kb0015",
     "category": "Network & Connectivity",
     "subcategory": "VPN",
     "question": "How do I connect to the company VPN?",
-    "answer": "Install the company-approved VPN client from the software center, open it, and sign in with your work credentials and MFA. Connect to the VPN before you try to reach internal systems, files, or applications while you're working remotely. Disconnect when you've finished working."
+    "answer": "Install the company-approved VPN client from the software center, open it, and sign in with your work credentials and MFA. Connect to the VPN before you try to reach internal systems, files, or applications while you're working remotely. Disconnect when you've finished working.",
+    "alt_questions": [
+      "How do I get onto the company network from home?",
+      "What's the process for logging into the work VPN?",
+      "Need help setting up the remote access for work stuff.",
+      "Can't access company files from outside the office, what should I do?",
+      "How do I use the VPN to connect to work systems?"
+    ]
   },
   {
     "id": "it_kb0016",
     "category": "Network & Connectivity",
     "subcategory": "VPN",
     "question": "My VPN keeps disconnecting. What should I do?",
-    "answer": "Make sure your home internet connection is stable, then close and reopen the VPN client. Check that you're using the latest version of the client, and try a different network if possible. Avoid letting your computer go into sleep mode while connected. If it keeps happening, submit a ticket with the error message and the time of the disconnection."
+    "answer": "Make sure your home internet connection is stable, then close and reopen the VPN client. Check that you're using the latest version of the client, and try a different network if possible. Avoid letting your computer go into sleep mode while connected. If it keeps happening, submit a ticket with the error message and the time of the disconnection.",
+    "alt_questions": [
+      "Why does my VPN keep dropping?",
+      "My connection keeps cutting out when I'm on VPN, what can I do?",
+      "VPN disconnects every few minutes, any fixes?",
+      "How do I stop my VPN from disconnecting all the time?",
+      "VPN won't stay connected, help!"
+    ]
   },
   {
     "id": "it_kb0017",
     "category": "Network & Connectivity",
     "subcategory": "Remote Access",
     "question": "How do I access my office desktop or internal files from home?",
-    "answer": "Connect to the company VPN first, then use the approved remote desktop tool or your cloud file storage to reach your files. Remote access to an office desktop needs your manager's approval, which you can request through the IT service portal. Never use personal remote access tools that haven't been approved by IT."
+    "answer": "Connect to the company VPN first, then use the approved remote desktop tool or your cloud file storage to reach your files. Remote access to an office desktop needs your manager's approval, which you can request through the IT service portal. Never use personal remote access tools that haven't been approved by IT.",
+    "alt_questions": [
+      "How can I get to my work computer from home?",
+      "What's the process to see my office files when I'm not in the office?",
+      "Need help connecting to my work desktop remotely.",
+      "Can I access my work stuff from home without being in the office?",
+      "How do I log into my office PC from my house?"
+    ]
   },
   {
     "id": "it_kb0018",
     "category": "Network & Connectivity",
     "subcategory": "Remote Access",
     "question": "Can I work from a public network or while traveling?",
-    "answer": "Yes, but you must always use the company VPN on public or unfamiliar Wi-Fi networks such as cafes, hotels, and airports. Don't use public computers for work, keep your screen out of sight of others, and lock your device when you step away. If you're traveling internationally, let IT know in advance, since access may be restricted in some countries."
+    "answer": "Yes, but you must always use the company VPN on public or unfamiliar Wi-Fi networks such as cafes, hotels, and airports. Don't use public computers for work, keep your screen out of sight of others, and lock your device when you step away. If you're traveling internationally, let IT know in advance, since access may be restricted in some countries.",
+    "alt_questions": [
+      "Can I use hotel Wi-Fi for work stuff?",
+      "Is it okay to connect to the internet at a coffee shop?",
+      "What should I do if I'm working from an airport lounge?",
+      "Do I need to do anything special when using my laptop abroad?",
+      "How do I stay secure when using public Wi-Fi for work?"
+    ]
   },
   {
     "id": "it_kb0019",
     "category": "Software & Applications",
     "subcategory": "Email & Office",
     "question": "How do I set up my company email on Outlook or my phone?",
-    "answer": "Install the approved Outlook app, enter your work email address, and sign in through the company's single sign-on with MFA. For a phone, you'll also need to enroll the device in the company's mobile device management program. If setup fails, contact the IT Service Desk."
+    "answer": "Install the approved Outlook app, enter your work email address, and sign in through the company's single sign-on with MFA. For a phone, you'll also need to enroll the device in the company's mobile device management program. If setup fails, contact the IT Service Desk.",
+    "alt_questions": [
+      "How do I get my work email on my phone?",
+      "Can't figure out how to set up Outlook for my company email.",
+      "Need help connecting my phone to my work email.",
+      "What's the process to add my work email to Outlook?",
+      "Having trouble accessing my company email on my mobile."
+    ]
   },
   {
     "id": "it_kb0020",
     "category": "Software & Applications",
     "subcategory": "Email & Office",
     "question": "My mailbox is full. How do I free up space?",
-    "answer": "Delete large attachments and old messages you no longer need, and empty your Deleted Items and Junk folders. You can also archive older emails to free up space. If you need a larger mailbox for business reasons, submit a request through the IT service portal."
+    "answer": "Delete large attachments and old messages you no longer need, and empty your Deleted Items and Junk folders. You can also archive older emails to free up space. If you need a larger mailbox for business reasons, submit a request through the IT service portal.",
+    "alt_questions": [
+      "Why is my email saying it's full?",
+      "How can I make more room in my inbox?",
+      "I'm getting a storage warning for my email, what should I do?",
+      "My email won't let me send messages because it's too full, help!",
+      "What's the best way to clear out my email space?"
+    ]
   },
   {
     "id": "it_kb0021",
     "category": "Software & Applications",
     "subcategory": "ERP/CRM",
     "question": "How do I get access to the ERP or CRM system?",
-    "answer": "Submit an access request through the IT service portal, naming the system and the role you need. Your manager and the system owner must approve the request, and some roles require completing training first. Access is usually set up within 3 business days after approval."
+    "answer": "Submit an access request through the IT service portal, naming the system and the role you need. Your manager and the system owner must approve the request, and some roles require completing training first. Access is usually set up within 3 business days after approval.",
+    "alt_questions": [
+      "How can I get into the ERP system?",
+      "I need to use the CRM for my job, how do I get access?",
+      "What's the process to get permission for the ERP software?",
+      "My manager said I need to request access to the CRM, how do I do that?",
+      "How long does it take to get set up with the ERP after I ask for access?"
+    ]
   },
   {
     "id": "it_kb0022",
     "category": "Software & Applications",
     "subcategory": "ERP/CRM",
     "question": "Who do I contact if the ERP or CRM system is down or showing errors?",
-    "answer": "First check the IT status page to see if the issue is already known. If it isn't, submit a high-priority ticket with screenshots, the exact error message, and the steps that led to it. For urgent outages that stop business operations, call the IT Service Desk directly."
+    "answer": "First check the IT status page to see if the issue is already known. If it isn't, submit a high-priority ticket with screenshots, the exact error message, and the steps that led to it. For urgent outages that stop business operations, call the IT Service Desk directly.",
+    "alt_questions": [
+      "My CRM isn't loading, who should I reach out to?",
+      "ERP system is acting weird, what should I do?",
+      "Can't access the CRM, any idea who to contact?",
+      "Getting error messages on ERP, how do I report this?",
+      "System's down, who do I call for help?"
+    ]
   },
   {
     "id": "it_kb0023",
     "category": "Software & Applications",
     "subcategory": "License Requests",
     "question": "How do I request a software license?",
-    "answer": "Submit a request through the IT service portal with the software name, the business reason you need it, and your manager's approval. IT checks whether an approved alternative or an existing license is available. Approved software is made available through the company software center, and costs are charged to your department."
+    "answer": "Submit a request through the IT service portal with the software name, the business reason you need it, and your manager's approval. IT checks whether an approved alternative or an existing license is available. Approved software is made available through the company software center, and costs are charged to your department.",
+    "alt_questions": [
+      "How can I get a new software for my work computer?",
+      "Where do I go to ask for a program license?",
+      "I need a specific app for a project, how do I get it approved?",
+      "What's the process to get a new software tool installed?",
+      "Can someone tell me how to order a software license for my team?"
+    ]
   },
   {
     "id": "it_kb0024",
     "category": "Software & Applications",
     "subcategory": "License Requests",
     "question": "Can I install software myself on my work computer?",
-    "answer": "You can install software that's listed in the company software center. Any other software needs to be reviewed and approved by IT Security first, since unapproved software can create security and licensing risks. Unapproved software found on company devices may be removed."
+    "answer": "You can install software that's listed in the company software center. Any other software needs to be reviewed and approved by IT Security first, since unapproved software can create security and licensing risks. Unapproved software found on company devices may be removed.",
+    "alt_questions": [
+      "Can I put new programs on my work laptop?",
+      "Is it okay to download apps on my office computer?",
+      "How do I get permission to add software to my PC?",
+      "Am I allowed to install stuff from the internet on my work device?",
+      "What do I need to do before adding new software to my company computer?"
+    ]
   },
   {
     "id": "it_kb0025",
     "category": "Security & Policy",
     "subcategory": "Phishing Reporting",
     "question": "How do I report a suspicious email or phishing attempt?",
-    "answer": "Don't click any links or open attachments. Use the \"Report Phishing\" button in Outlook, or forward the email as an attachment to the IT Security mailbox, then delete it. Reporting quickly helps IT block the sender and protect your coworkers."
+    "answer": "Don't click any links or open attachments. Use the \"Report Phishing\" button in Outlook, or forward the email as an attachment to the IT Security mailbox, then delete it. Reporting quickly helps IT block the sender and protect your coworkers.",
+    "alt_questions": [
+      "I got a weird email, what should I do?",
+      "How do I handle a sketchy email in Outlook?",
+      "What's the process for flagging a phishing email?",
+      "Where do I send a suspicious email I received?",
+      "Can I report a scam email to IT?"
+    ]
   },
   {
     "id": "it_kb0026",
     "category": "Security & Policy",
     "subcategory": "Phishing Reporting",
     "question": "What should I do if I clicked a link or entered my password on a suspicious site?",
-    "answer": "Contact the IT Service Desk or IT Security immediately and don't wait to see if anything happens. If you entered your password, change it right away from a trusted device. IT will check your device and account activity and may reset your sessions or MFA as a precaution."
+    "answer": "Contact the IT Service Desk or IT Security immediately and don't wait to see if anything happens. If you entered your password, change it right away from a trusted device. IT will check your device and account activity and may reset your sessions or MFA as a precaution.",
+    "alt_questions": [
+      "I accidentally clicked on a weird link in an email, what now?",
+      "Help! I think I just gave my password to a fake site, what should I do?",
+      "Oops, I clicked a sketchy link and entered my login info. How do I fix this?",
+      "I might have fallen for a phishing scam. What's my next step?",
+      "I entered my password on a suspicious page. Who should I contact?"
+    ]
   },
   {
     "id": "it_kb0027",
     "category": "Security & Policy",
     "subcategory": "Data Privacy",
     "question": "How should I handle confidential or customer data?",
-    "answer": "Share confidential data only with people who need it for their work, and use approved, encrypted tools and storage. Don't store it on personal devices or unapproved cloud services, and lock your screen when you step away. Report any suspected data loss or exposure to IT Security immediately."
+    "answer": "Share confidential data only with people who need it for their work, and use approved, encrypted tools and storage. Don't store it on personal devices or unapproved cloud services, and lock your screen when you step away. Report any suspected data loss or exposure to IT Security immediately.",
+    "alt_questions": [
+      "How do I keep customer info safe at work?",
+      "What's the best way to share sensitive data with my team?",
+      "Can I save work files on my personal laptop?",
+      "What should I do if I think I've lost some client data?",
+      "Is it okay to use Google Drive for storing company documents?"
+    ]
   },
   {
     "id": "it_kb0028",
     "category": "Security & Policy",
     "subcategory": "Data Privacy",
     "question": "Can I use personal cloud storage or USB drives for work files?",
-    "answer": "No. Work files must be stored in company-approved locations such as the corporate file share or cloud storage. USB drives are restricted and may only be used with IT approval, and they must be encrypted. This protects company and customer data from accidental loss or exposure."
+    "answer": "No. Work files must be stored in company-approved locations such as the corporate file share or cloud storage. USB drives are restricted and may only be used with IT approval, and they must be encrypted. This protects company and customer data from accidental loss or exposure.",
+    "alt_questions": [
+      "Can I save work stuff on my personal Dropbox?",
+      "Is it okay to use my USB stick for office documents?",
+      "Where should I keep my work files if I can't use my own cloud?",
+      "Can I transfer work files to my personal flash drive?",
+      "Am I allowed to store company data on my personal Google Drive?"
+    ]
   },
   {
     "id": "it_kb0029",
     "category": "Security & Policy",
     "subcategory": "Compliance",
     "question": "Is security awareness training mandatory?",
-    "answer": "Yes. All employees must complete security awareness training within 30 days of joining and then once every year. The training covers topics such as phishing, password safety, and data protection. Employees who don't complete it on time may have their access restricted until it is done."
+    "answer": "Yes. All employees must complete security awareness training within 30 days of joining and then once every year. The training covers topics such as phishing, password safety, and data protection. Employees who don't complete it on time may have their access restricted until it is done.",
+    "alt_questions": [
+      "Do I have to do the security training every year?",
+      "When do I need to finish the security course after starting?",
+      "What happens if I miss the deadline for the security training?",
+      "Is there a deadline for the cyber safety training?",
+      "How often do we need to do the online safety course?"
+    ]
   },
   {
     "id": "it_kb0030",
     "category": "Security & Policy",
     "subcategory": "Compliance",
     "question": "How long does Synergy Inc keep records and data?",
-    "answer": "Records are kept according to the company's data retention policy and applicable legal requirements, and the retention period depends on the type of record. Don't delete anything that is subject to a legal hold. If you're unsure how long to keep a document or whether you can delete it, contact the Compliance team."
+    "answer": "Records are kept according to the company's data retention policy and applicable legal requirements, and the retention period depends on the type of record. Don't delete anything that is subject to a legal hold. If you're unsure how long to keep a document or whether you can delete it, contact the Compliance team.",
+    "alt_questions": [
+      "How long do we keep files and documents at Synergy?",
+      "What's the rule for storing company records?",
+      "Can I delete old emails or do I need to keep them?",
+      "How long should I hold onto work-related data?",
+      "What should I do with documents that might be needed for legal reasons?"
+    ]
   },
   {
     "id": "it_kb0031",
     "category": "Access & Accounts",
     "subcategory": "Password Resets",
     "question": "How do I change my password before it expires?",
-    "answer": "Sign in to the self-service password portal, choose \"Change password,\" and enter your current password followed by a new one that meets the company requirements. On a company laptop you can also press Ctrl+Alt+Delete and select \"Change a password.\" After changing it, update the saved password on your phone and any other devices to avoid being locked out."
+    "answer": "Sign in to the self-service password portal, choose \"Change password,\" and enter your current password followed by a new one that meets the company requirements. On a company laptop you can also press Ctrl+Alt+Delete and select \"Change a password.\" After changing it, update the saved password on your phone and any other devices to avoid being locked out.",
+    "alt_questions": [
+      "How can I update my password before it stops working?",
+      "What's the process to change my password on my laptop?",
+      "Need to switch my password, how do I do that?",
+      "Where do I go to reset my password before it expires?",
+      "Can I change my password using my work computer?"
+    ]
   },
   {
     "id": "it_kb0032",
     "category": "Hardware",
     "subcategory": "Workstations",
     "question": "How do I get help with a computer that won't start?",
-    "answer": "Check that the power cable and charger are firmly connected and that the battery is charged. Hold the power button for 10 seconds, release it, and then try turning the computer on again. If it still won't start, submit a high-priority ticket or contact the IT Service Desk, and don't try to open the device yourself."
+    "answer": "Check that the power cable and charger are firmly connected and that the battery is charged. Hold the power button for 10 seconds, release it, and then try turning the computer on again. If it still won't start, submit a high-priority ticket or contact the IT Service Desk, and don't try to open the device yourself.",
+    "alt_questions": [
+      "My computer won't turn on, what should I do?",
+      "Help! My laptop is completely dead and won't power up.",
+      "Why won't my PC start even though it's plugged in?",
+      "I'm pressing the power button, but nothing happens. Any advice?",
+      "What can I try if my desktop isn't booting up?"
+    ]
   },
   {
     "id": "it_kb0033",
     "category": "Network & Connectivity",
     "subcategory": "VPN",
     "question": "Why can't I reach internal websites or file shares from home?",
-    "answer": "Make sure you are connected to the company VPN, since internal resources are not available from the public internet. If the VPN is connected but you still can't reach a site, disconnect and reconnect, then restart your browser. If the problem continues, submit a ticket with the name of the site or share and any error message you see."
+    "answer": "Make sure you are connected to the company VPN, since internal resources are not available from the public internet. If the VPN is connected but you still can't reach a site, disconnect and reconnect, then restart your browser. If the problem continues, submit a ticket with the name of the site or share and any error message you see.",
+    "alt_questions": [
+      "Why can't I access the company intranet from my home computer?",
+      "I'm trying to open a file from the office server, but it's not working. What should I do?",
+      "My work sites aren't loading when I'm at home. Any ideas why?",
+      "I can't get to the internal company pages remotely. How can I fix this?",
+      "Having trouble connecting to shared drives from home. What's going on?"
+    ]
   },
   {
     "id": "it_kb0034",
     "category": "Software & Applications",
     "subcategory": "Email & Office",
     "question": "How do I set up an out-of-office message in my email?",
-    "answer": "In Outlook, open the automatic replies setting, turn it on, and enter the dates you will be away along with your message. You can write one message for colleagues inside Synergy Inc and another for external senders. Include the name and contact details of a backup person, and turn the reply off when you return if it doesn't end automatically."
+    "answer": "In Outlook, open the automatic replies setting, turn it on, and enter the dates you will be away along with your message. You can write one message for colleagues inside Synergy Inc and another for external senders. Include the name and contact details of a backup person, and turn the reply off when you return if it doesn't end automatically.",
+    "alt_questions": [
+      "How do I set up an away message in Outlook?",
+      "Need to set up an auto-reply for when I'm on vacation, how do I do that?",
+      "Can someone tell me how to create an out-of-office email?",
+      "What's the process for setting up a vacation responder in my email?",
+      "How do I make sure people know I'm not available via email?"
+    ]
   },
   {
     "id": "it_kb0035",
     "category": "Security & Policy",
     "subcategory": "Phishing Reporting",
     "question": "How can I tell if an email is a phishing attempt?",
-    "answer": "Be cautious of emails that create urgency, ask for passwords or payment, or come from addresses that look slightly different from the real sender. Hover over links to check where they lead, and watch for unexpected attachments or spelling errors. If you aren't sure, don't click anything, and report it using the \"Report Phishing\" button in Outlook or contact IT Security."
+    "answer": "Be cautious of emails that create urgency, ask for passwords or payment, or come from addresses that look slightly different from the real sender. Hover over links to check where they lead, and watch for unexpected attachments or spelling errors. If you aren't sure, don't click anything, and report it using the \"Report Phishing\" button in Outlook or contact IT Security.",
+    "alt_questions": [
+      "How do I know if an email is a scam?",
+      "What should I look for to spot a fake email?",
+      "Got an email asking for my password, is it legit?",
+      "How can I check if this email is safe to open?",
+      "Is there a way to tell if an email is trying to trick me?"
+    ]
   }
 ]

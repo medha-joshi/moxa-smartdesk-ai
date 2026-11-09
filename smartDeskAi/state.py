@@ -25,6 +25,8 @@ class SmartDeskState(TypedDict, total=False):
     messages: Annotated[list[AnyMessage], add_messages]
     # Remembered for the whole session so Moxa never re-asks
     employee_email: str | None
+    # True when employee_email comes from sign-in; chat messages can't change it then
+    email_verified: bool
     # Orchestrator routing decision for the current turn
     selected_agents: list[str]
     routing_reasoning: str
@@ -37,3 +39,4 @@ class AgentTask(TypedDict):
     """Payload the orchestrator sends to each sub-agent with Send()."""
     messages: list[AnyMessage]
     employee_email: str | None
+    question: str | None    # this agent's part of a mixed HR + IT message, written by the router

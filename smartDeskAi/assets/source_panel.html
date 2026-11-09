@@ -1,0 +1,72 @@
+<!--
+Slide-out "Source" panel for citation links.
+
+Citation links point at ?source=hr_kb0001 (etc.) and would open in a new tab. This script catches those clicks
+and shows the same source page, embedded, in a panel that slides in from the right, so the chat
+session is untouched. Without JavaScript the links still work and open in a new tab.
+
+Keep "<" out of the script: Streamlit's sanitizer (DOMPurify) drops a script whose text looks like
+HTML markup, so the panel is built with DOM calls rather than an HTML string.
+-->
+<script>
+(() => {
+  // Streamlit re-inserts this element on every rerun; set up the panel only once per page
+  if (window.moxaSourcePanel) return;
+  window.moxaSourcePanel = true;
+
+  const style = document.createElement("style");
+  style.textContent = `
+    #moxa-source-panel {
+      position: fixed; top: 0; right: 0; z-index: 1000000;
+      width: min(460px, 92vw); height: 100vh;
+      display: flex; flex-direction: column;
+      background: #fff; box-shadow: -8px 0 24px rgba(0, 0, 0, 0.15);
+      transform: translateX(105%); transition: transform 0.25s ease;
+    }
+    #moxa-source-panel.open { transform: translateX(0); }
+    #moxa-source-panel header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0.9rem 1rem 0.9rem 1.5rem; border-bottom: 1px solid #e6e9ef;
+      font: 600 1rem "Source Sans", sans-serif; color: #31333f;
+    }
+    #moxa-source-panel button {
+      border: 0; background: none; cursor: pointer;
+      font-size: 1.1rem; line-height: 1; padding: 0.4rem; border-radius: 0.4rem; color: #31333f;
+    }
+    #moxa-source-panel button:hover { background: #f0f2f6; }
+    #moxa-source-panel iframe { flex: 1; width: 100%; border: 0; }
+  `;
+  document.head.appendChild(style);
+
+  const panel = document.createElement("aside");
+  panel.id = "moxa-source-panel";
+  panel.setAttribute("aria-label", "Citation source");
+  const header = document.createElement("header");
+  const title = document.createElement("span");
+  title.textContent = "Source";
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.textContent = "✕";
+  closeButton.setAttribute("aria-label", "Close source panel");
+  const frame = document.createElement("iframe");
+  frame.title = "Knowledge-base source";
+  header.append(title, closeButton);
+  panel.append(header, frame);
+  document.body.appendChild(panel);
+
+  const close = () => panel.classList.remove("open");
+  closeButton.addEventListener("click", close);
+  document.addEventListener("keydown", (event) => { if (event.key === "Escape") close(); });
+
+  // Capture phase, so the link's own new-tab navigation never starts
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest('a[href^="?source="]');
+    if (!link) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const kbId = new URLSearchParams(link.getAttribute("href").slice(1)).get("source");
+    frame.src = `?source=${encodeURIComponent(kbId)}&embed=true`;
+    panel.classList.add("open");
+  }, true);
+})();
+</script>

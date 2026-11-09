@@ -3,258 +3,572 @@
     "id": "hr_kb0001",
     "category": "Workplace Policies & Conduct",
     "question": "What is the dress code at the office?",
-    "answer": "Synergy Inc follows a business casual dress code. Clothing should be clean, neat, and appropriate for a professional setting. Casual attire is allowed on Fridays or on designated days, and you should dress formally when meeting clients."
+    "answer": "Synergy Inc follows a business casual dress code. Clothing should be clean, neat, and appropriate for a professional setting. Casual attire is allowed on Fridays or on designated days, and you should dress formally when meeting clients.",
+    "alt_questions": [
+      "What's the office dress code here?",
+      "Can I wear jeans to work on Fridays?",
+      "How should I dress for a client meeting?",
+      "Is there a specific way we need to dress at the office?",
+      "Are there any days we can dress more casually?"
+    ]
   },
   {
     "id": "hr_kb0002",
     "category": "Workplace Policies & Conduct",
     "question": "What is the process for raising a grievance, and who handles it?",
-    "answer": "You should first raise the concern with your immediate manager. If it isn't resolved, or if the issue involves your manager, you can escalate it to HR in writing. HR will acknowledge your grievance, review it fairly and confidentially, and aim to respond within 15 business days. Synergy Inc strictly prohibits retaliation against anyone who raises a concern in good faith."
+    "answer": "You should first raise the concern with your immediate manager. If it isn't resolved, or if the issue involves your manager, you can escalate it to HR in writing. HR will acknowledge your grievance, review it fairly and confidentially, and aim to respond within 15 business days. Synergy Inc strictly prohibits retaliation against anyone who raises a concern in good faith.",
+    "alt_questions": [
+      "How do I report a problem with my boss?",
+      "Who do I talk to if I have an issue at work?",
+      "What's the next step if my manager isn't helping with my complaint?",
+      "Can HR help if I'm having trouble with my supervisor?",
+      "What's the procedure for making a formal complaint at work?"
+    ]
   },
   {
     "id": "hr_kb0003",
     "category": "Compensation & Benefits",
     "question": "How do I enroll in or change my health insurance coverage?",
-    "answer": "New employees can enroll within 30 days of joining through the benefits portal on the HR website. Changes outside the annual open enrollment period are allowed only after a qualifying life event, such as marriage, the birth of a child, or a change in a dependent's coverage. Contact HR for help with enrollment."
+    "answer": "New employees can enroll within 30 days of joining through the benefits portal on the HR website. Changes outside the annual open enrollment period are allowed only after a qualifying life event, such as marriage, the birth of a child, or a change in a dependent's coverage. Contact HR for help with enrollment.",
+    "alt_questions": [
+      "How do I sign up for health insurance as a new hire?",
+      "Can I change my health plan after getting married?",
+      "Where do I go to update my medical coverage?",
+      "I just had a baby, can I add them to my health insurance now?",
+      "What's the process for adjusting my benefits outside of open enrollment?"
+    ]
   },
   {
     "id": "hr_kb0004",
     "category": "Equal Opportunity & Diversity",
     "question": "What is the company's stance on discrimination?",
-    "answer": "The company strictly prohibits discrimination against any applicant, employee, or former employee based on race, color, religion, caste, gender, national origin, age, sexual orientation, marital status, disability, or any other attributes. All employment decisions are made based on legitimate, non-discriminatory business reasons."
+    "answer": "The company strictly prohibits discrimination against any applicant, employee, or former employee based on race, color, religion, caste, gender, national origin, age, sexual orientation, marital status, disability, or any other attributes. All employment decisions are made based on legitimate, non-discriminatory business reasons.",
+    "alt_questions": [
+      "How does the company handle discrimination issues?",
+      "Can I report someone for treating me unfairly because of my background?",
+      "What's the policy if I feel I'm being treated differently because of my age?",
+      "Is there a rule against bias based on who I love?",
+      "What should I do if I think I'm being judged at work because of my religion?"
+    ]
   },
   {
     "id": "hr_kb0005",
     "category": "Equal Opportunity & Diversity",
     "question": "How does the company ensure fairness in employment-related decisions?",
-    "answer": "All employment-related decisions at our company are based solely on legitimate, non-discriminatory business reasons, ensuring fairness and equality in hiring, promotions, and other employment practices."
+    "answer": "All employment-related decisions at our company are based solely on legitimate, non-discriminatory business reasons, ensuring fairness and equality in hiring, promotions, and other employment practices.",
+    "alt_questions": [
+      "How does the company make sure hiring is fair?",
+      "What steps are taken to avoid bias in promotions?",
+      "Can you explain how job decisions are made without discrimination?",
+      "How does the company handle equal treatment in the workplace?",
+      "What measures are in place to ensure everyone gets a fair shot at jobs here?"
+    ]
   },
   {
     "id": "hr_kb0006",
     "category": "Equal Opportunity & Diversity",
     "question": "Are former employees considered differently in the hiring process?",
-    "answer": "No, former employees are subject to the same non-discriminatory policies as new applicants. Their evaluation for re-employment is based purely on their qualifications and the business needs at the time."
+    "answer": "No, former employees are subject to the same non-discriminatory policies as new applicants. Their evaluation for re-employment is based purely on their qualifications and the business needs at the time.",
+    "alt_questions": [
+      "Do ex-employees get treated differently when reapplying?",
+      "If I left the company, will I have a fair shot if I want to come back?",
+      "Is there any special process for hiring back people who used to work here?",
+      "I'm thinking of rejoining the company. Will my past employment affect my chances?",
+      "Are there any biases against rehiring someone who quit before?"
+    ]
   },
   {
     "id": "hr_kb0007",
     "category": "Equal Opportunity & Diversity",
     "question": "What measures are in place to support diversity in the workplace?",
-    "answer": "The company actively promotes a diverse workplace by ensuring that our hiring and employment practices do not favor or disadvantage any group or individual unjustifiably, adhering strictly to the principles of equality as laid out in our Equal Employment Policy."
+    "answer": "The company actively promotes a diverse workplace by ensuring that our hiring and employment practices do not favor or disadvantage any group or individual unjustifiably, adhering strictly to the principles of equality as laid out in our Equal Employment Policy.",
+    "alt_questions": [
+      "How does the company make sure everyone gets a fair shot at jobs here?",
+      "What steps are taken to ensure we have a mix of different backgrounds at work?",
+      "Can you tell me how the company supports having a variety of people in the office?",
+      "What does the company do to make sure hiring is fair for everyone?",
+      "How does the company handle diversity in hiring and promotions?"
+    ]
   },
   {
     "id": "hr_kb0008",
     "category": "Equal Opportunity & Diversity",
     "question": "Can individuals with disabilities apply for all roles in the company?",
-    "answer": "Yes, individuals with disabilities are encouraged to apply for any role. They are evaluated based on their ability to meet the essential criteria of the job, with reasonable adjustments made to facilitate their full participation in the recruitment process."
+    "answer": "Yes, individuals with disabilities are encouraged to apply for any role. They are evaluated based on their ability to meet the essential criteria of the job, with reasonable adjustments made to facilitate their full participation in the recruitment process.",
+    "alt_questions": [
+      "Can someone with a disability apply for any job here?",
+      "Are there any restrictions for disabled people applying for jobs at our company?",
+      "I'm disabled, can I still apply for positions?",
+      "Do we hire people with disabilities for all roles?",
+      "Is it okay for someone with a disability to apply for any position?"
+    ]
   },
   {
     "id": "hr_kb0009",
     "category": "Recruitment & Referrals",
     "question": "What information is provided to candidates when they apply for a position?",
-    "answer": "Candidates receive a job description, details of the relevant conditions of service, information about the company, a brief statement about the appointment procedure, and the expected timeline for interviews."
+    "answer": "Candidates receive a job description, details of the relevant conditions of service, information about the company, a brief statement about the appointment procedure, and the expected timeline for interviews.",
+    "alt_questions": [
+      "What do we tell people who apply for jobs here?",
+      "I'm helping a friend apply, what info do they get from us?",
+      "What details do candidates see when they submit an application?",
+      "How do we inform applicants about the job and interview process?",
+      "What kind of stuff do we send to job applicants after they apply?"
+    ]
   },
   {
     "id": "hr_kb0010",
     "category": "Recruitment & Referrals",
     "question": "How does the company ensure that the recruitment process is fair?",
-    "answer": "The recruitment process is designed to be transparent and equitable, with job descriptions carefully written to avoid discrimination, and a selection process that is based solely on merit and suitability for the post, while also adhering to legal responsibilities concerning non-discrimination."
+    "answer": "The recruitment process is designed to be transparent and equitable, with job descriptions carefully written to avoid discrimination, and a selection process that is based solely on merit and suitability for the post, while also adhering to legal responsibilities concerning non-discrimination.",
+    "alt_questions": [
+      "How does the company make sure hiring is fair?",
+      "What steps are taken to keep the recruitment process unbiased?",
+      "Can you explain how the hiring process is equal for everyone?",
+      "How does the company avoid discrimination when hiring?",
+      "What measures are in place to ensure a fair hiring process?"
+    ]
   },
   {
     "id": "hr_kb0011",
     "category": "Recruitment & Referrals",
     "question": "What provisions are made for candidates with disabilities during the recruitment process?",
-    "answer": "Candidates with disabilities are asked to specify their needs so that reasonable adjustments can be made for them to attend interviews. Those who meet the essential job criteria are guaranteed an interview and are considered based on their merits."
+    "answer": "Candidates with disabilities are asked to specify their needs so that reasonable adjustments can be made for them to attend interviews. Those who meet the essential job criteria are guaranteed an interview and are considered based on their merits.",
+    "alt_questions": [
+      "How do we support job applicants with disabilities during interviews?",
+      "What should I tell a candidate with special needs about our interview process?",
+      "Do we offer any help for disabled candidates coming for interviews?",
+      "Can someone with a disability get an interview if they meet the job requirements?",
+      "What accommodations do we provide for disabled applicants during recruitment?"
+    ]
   },
   {
     "id": "hr_kb0012",
     "category": "Recruitment & Referrals",
     "question": "Is there any policy regarding employees referring candidates for open positions?",
-    "answer": "Yes, employees are encouraged to refer suitable candidates. Referrals should be made via email with the candidate’s resume and a cover letter. A referral bonus is offered under specific conditions, and the process is transparently managed by HR."
+    "answer": "Yes, employees are encouraged to refer suitable candidates. Referrals should be made via email with the candidate’s resume and a cover letter. A referral bonus is offered under specific conditions, and the process is transparently managed by HR.",
+    "alt_questions": [
+      "How do I refer someone for a job here?",
+      "Can I get a bonus for recommending a friend for a job?",
+      "What's the process for suggesting a candidate for a position?",
+      "Do we have any perks for bringing in new hires?",
+      "How do I send a friend's resume to HR for a job opening?"
+    ]
   },
   {
     "id": "hr_kb0013",
     "category": "Recruitment & Referrals",
     "question": "What is the referral bonus, and who is eligible to receive it?",
-    "answer": "The referral bonus is $2,000, awarded to employees who successfully refer someone for a full-time, permanent role requiring 2+ years of experience. The bonus is given after the referred employee has remained with the company for about 45 days. Members of the HR department are not eligible for this bonus."
+    "answer": "The referral bonus is $2,000, awarded to employees who successfully refer someone for a full-time, permanent role requiring 2+ years of experience. The bonus is given after the referred employee has remained with the company for about 45 days. Members of the HR department are not eligible for this bonus.",
+    "alt_questions": [
+      "How much do I get if I refer someone for a job here?",
+      "Can I earn a bonus for recommending a friend for a position?",
+      "Who can get the referral reward when bringing in new hires?",
+      "What's the cash incentive for suggesting a candidate for a job?",
+      "Am I eligible for a referral bonus if I work in HR?"
+    ]
   },
   {
     "id": "hr_kb0014",
     "category": "Onboarding & Induction",
     "question": "What is the purpose of the Company's Induction Policy?",
-    "answer": "The Induction Policy aims to ensure that new staff are introduced into their roles and the working environment efficiently and effectively. The policy facilitates a structured process so that new employees can become productive members of the team as quickly as possible."
+    "answer": "The Induction Policy aims to ensure that new staff are introduced into their roles and the working environment efficiently and effectively. The policy facilitates a structured process so that new employees can become productive members of the team as quickly as possible.",
+    "alt_questions": [
+      "How does the company help new hires get settled in?",
+      "What's the process for getting up to speed when starting here?",
+      "How do they make sure new employees fit in quickly?",
+      "What steps are in place for introducing new staff to their roles?",
+      "How do they help new team members become productive fast?"
+    ]
   },
   {
     "id": "hr_kb0015",
     "category": "Separation & Exit",
     "question": "When will I receive my full and final settlement after leaving the company?",
-    "answer": "Your final settlement is typically processed within 30 days of your last working day. It includes pending salary, payment for any unused earned leave, and other dues, minus any deductions such as unreturned company assets. It is paid once you've completed the exit formalities and returned all company property."
+    "answer": "Your final settlement is typically processed within 30 days of your last working day. It includes pending salary, payment for any unused earned leave, and other dues, minus any deductions such as unreturned company assets. It is paid once you've completed the exit formalities and returned all company property.",
+    "alt_questions": [
+      "How long does it take to get my final paycheck after I leave?",
+      "When can I expect my last salary and dues after resigning?",
+      "What’s the timeline for receiving my exit payment?",
+      "I’ve left the company, when will I get my remaining pay?",
+      "How soon after my last day will I get my full settlement?"
+    ]
   },
   {
     "id": "hr_kb0016",
     "category": "Onboarding & Induction",
     "question": "How does the Induction Policy benefit new employees?",
-    "answer": "The policy helps new employees settle into the company quickly, enhancing their motivation and productivity from the outset. It ensures that new staff members are introduced to their roles under consistent and supportive conditions, fostering a smooth transition into the company."
+    "answer": "The policy helps new employees settle into the company quickly, enhancing their motivation and productivity from the outset. It ensures that new staff members are introduced to their roles under consistent and supportive conditions, fostering a smooth transition into the company.",
+    "alt_questions": [
+      "What's the point of the induction process for newbies?",
+      "How does the company help new hires get comfortable?",
+      "Why is the first week so structured for us?",
+      "What support do I get when starting here?",
+      "How does the company make sure I fit in quickly?"
+    ]
   },
   {
     "id": "hr_kb0017",
     "category": "Onboarding & Induction",
     "question": "What are the expected outcomes of implementing the Induction Policy for the company?",
-    "answer": "By adhering to the Induction Policy, the company expects to reduce staff turnover, lateness, and absenteeism, and mitigate poor performance. Additionally, the policy supports the development of a leadership-oriented management style and maintains a safe working environment, ultimately reducing costs associated with repeated recruitment and training."
+    "answer": "By adhering to the Induction Policy, the company expects to reduce staff turnover, lateness, and absenteeism, and mitigate poor performance. Additionally, the policy supports the development of a leadership-oriented management style and maintains a safe working environment, ultimately reducing costs associated with repeated recruitment and training.",
+    "alt_questions": [
+      "How does the company plan to keep new hires from leaving quickly?",
+      "What benefits does the induction process bring to our team?",
+      "Why is it important for managers to follow the onboarding guidelines?",
+      "How can we make sure new employees feel comfortable and stay longer?",
+      "What are the goals of our new employee orientation program?"
+    ]
   },
   {
     "id": "hr_kb0018",
     "category": "Onboarding & Induction",
     "question": "What responsibilities does the Human Resources Department have regarding the Induction Policy?",
-    "answer": "The Human Resources Department is tasked with issuing guidelines for the induction process, maintaining and updating the policy, and providing checklists for managers and staff. They also handle any problems that arise during the induction period and offer formal training courses necessary for the induction process."
+    "answer": "The Human Resources Department is tasked with issuing guidelines for the induction process, maintaining and updating the policy, and providing checklists for managers and staff. They also handle any problems that arise during the induction period and offer formal training courses necessary for the induction process.",
+    "alt_questions": [
+      "Who do I talk to about issues with the new hire orientation?",
+      "Where can I find the checklist for onboarding new employees?",
+      "What does HR do to help with the induction process?",
+      "I'm confused about the orientation guidelines, who can clarify them?",
+      "How do I get training for the induction program?"
+    ]
   },
   {
     "id": "hr_kb0019",
     "category": "Onboarding & Induction",
     "question": "What preparations are made for a new employee before their arrival at the company?",
-    "answer": "Preparations for a new entrant include arranging necessary workplace resources such as a desk and system. Additionally, colleagues are briefed about the new entrant’s arrival to foster a welcoming environment, and a buddy is nominated to assist the new employee in settling in quickly and becoming a part of the team."
+    "answer": "Preparations for a new entrant include arranging necessary workplace resources such as a desk and system. Additionally, colleagues are briefed about the new entrant’s arrival to foster a welcoming environment, and a buddy is nominated to assist the new employee in settling in quickly and becoming a part of the team.",
+    "alt_questions": [
+      "What should I expect to be ready for me on my first day?",
+      "How does the company prepare for a new hire's first day?",
+      "Will someone help me get settled when I start?",
+      "Is there a process for getting my workspace set up before I arrive?",
+      "Who will introduce me to the team when I join?"
+    ]
   },
   {
     "id": "hr_kb0020",
     "category": "Workplace Policies & Conduct",
     "question": "What are the rules on conflicts of interest and outside employment?",
-    "answer": "Employees must avoid situations where personal interests conflict with the interests of Synergy Inc, and must disclose any potential conflict to HR. Outside employment or business activity requires prior written approval, and is not allowed if it competes with Synergy Inc, uses company resources, or interferes with your job performance."
+    "answer": "Employees must avoid situations where personal interests conflict with the interests of Synergy Inc, and must disclose any potential conflict to HR. Outside employment or business activity requires prior written approval, and is not allowed if it competes with Synergy Inc, uses company resources, or interferes with your job performance.",
+    "alt_questions": [
+      "Can I work a side gig while employed here?",
+      "What should I do if I think my personal interests might clash with the company's?",
+      "Is it okay to use company resources for my freelance work?",
+      "Do I need to tell HR if I have a second job?",
+      "How do I handle a situation where my outside job might affect my work here?"
+    ]
   },
   {
     "id": "hr_kb0021",
     "category": "Compensation & Benefits",
     "question": "How is the pay cycle structured for employees at Synergy Inc?",
-    "answer": "Employees at Synergy Inc are paid on a bi-weekly cycle (every two weeks), with salaries automatically deposited electronically into the employee’s bank account. Taxation payments are also automatically deducted from the salary."
+    "answer": "Employees at Synergy Inc are paid on a bi-weekly cycle (every two weeks), with salaries automatically deposited electronically into the employee’s bank account. Taxation payments are also automatically deducted from the salary.",
+    "alt_questions": [
+      "When do we get our paychecks at Synergy?",
+      "How often do we get paid here?",
+      "Can someone tell me when my salary hits my bank account?",
+      "What's the schedule for our salary payments?",
+      "Do we get paid every two weeks or monthly?"
+    ]
   },
   {
     "id": "hr_kb0022",
     "category": "Compensation & Benefits",
     "question": "Are there scheduled salary reviews for employees at Synergy Inc?",
-    "answer": "Yes, the company reviews employees' salaries on the first anniversary of their employment and subsequently during the June-July cycle each year. However, the company is under no obligation to increase the salary."
+    "answer": "Yes, the company reviews employees' salaries on the first anniversary of their employment and subsequently during the June-July cycle each year. However, the company is under no obligation to increase the salary.",
+    "alt_questions": [
+      "When does Synergy Inc check if we get a pay raise?",
+      "Do we have salary reviews every year?",
+      "Is there a specific time when they look at our pay?",
+      "How often does Synergy Inc evaluate our wages?",
+      "When should I expect my salary to be reviewed?"
+    ]
   },
   {
     "id": "hr_kb0023",
     "category": "Onboarding & Induction",
     "question": "How long is the probation period, and what happens at its end?",
-    "answer": "New employees serve a probation period of 30 days. Your manager reviews your performance near the end of it, and HR confirms your employment in writing if the review is satisfactory. Probation may be extended once if more time is needed to assess performance."
+    "answer": "New employees serve a probation period of 30 days. Your manager reviews your performance near the end of it, and HR confirms your employment in writing if the review is satisfactory. Probation may be extended once if more time is needed to assess performance.",
+    "alt_questions": [
+      "What's the deal with the trial period for new hires?",
+      "How long do I have to prove myself when I start?",
+      "When does my manager decide if I stay after starting?",
+      "What happens after my first month at the company?",
+      "Can my probation be extended if needed?"
+    ]
   },
   {
     "id": "hr_kb0024",
     "category": "Separation & Exit",
     "question": "What is the notice period for resigning, and can it be shortened?",
-    "answer": "Employees are required to give 2 weeks written notice. Synergy Inc may agree to a shorter notice period or a buyout at its discretion, depending on business needs and the handover status. Please discuss this with your manager and HR."
+    "answer": "Employees are required to give 2 weeks written notice. Synergy Inc may agree to a shorter notice period or a buyout at its discretion, depending on business needs and the handover status. Please discuss this with your manager and HR.",
+    "alt_questions": [
+      "How much notice do I need to give if I want to quit?",
+      "Can I leave my job sooner than the two weeks' notice?",
+      "What's the process for resigning and how long do I have to stay?",
+      "Is it possible to negotiate a shorter notice period when resigning?",
+      "If I resign, can I leave before the two-week notice is up?"
+    ]
   },
   {
     "id": "hr_kb0025",
     "category": "Compensation & Benefits",
     "question": "What should an employee do if they need to change their pay details?",
-    "answer": "If an employee needs to change any pay details, such as bank account information, they must notify the Human Resource Department via email. This notification should be made at least 7 working days before the desired effective date of the change."
+    "answer": "If an employee needs to change any pay details, such as bank account information, they must notify the Human Resource Department via email. This notification should be made at least 7 working days before the desired effective date of the change.",
+    "alt_questions": [
+      "How do I update my bank account for my paycheck?",
+      "I need to change where my salary goes, who do I contact?",
+      "What's the process to switch my direct deposit info?",
+      "Can someone tell me how to update my payment details?",
+      "Who do I email to change my bank details for my pay?"
+    ]
   },
   {
     "id": "hr_kb0026",
     "category": "Leave & Attendance",
     "question": "What is the protocol for reporting lateness or absence from work?",
-    "answer": "Employees who are late or absent due to illness, injury, or other reasons must inform their supervisor and HR as soon as possible, ideally before their normal starting time. If an employee cannot report personally, they should arrange for someone to inform the office on their behalf. It’s also advised that medical and other personal appointments be scheduled outside of normal working hours."
+    "answer": "Employees who are late or absent due to illness, injury, or other reasons must inform their supervisor and HR as soon as possible, ideally before their normal starting time. If an employee cannot report personally, they should arrange for someone to inform the office on their behalf. It’s also advised that medical and other personal appointments be scheduled outside of normal working hours.",
+    "alt_questions": [
+      "How do I let my boss know if I'm going to be late?",
+      "What's the process if I can't make it to work today?",
+      "Who should I contact if I'm sick and can't come in?",
+      "If I'm running late, who do I need to inform?",
+      "What should I do if I have a doctor's appointment during work hours?"
+    ]
   },
   {
     "id": "hr_kb0027",
     "category": "Expenses & Reimbursement",
     "question": "How does the company handle the reimbursement of expenses?",
-    "answer": "Synergy Inc reimburses employees for pre-approved expenses that are incurred during the proper performance of their duties. For reimbursement, employees must provide receipts or other evidence of the payment and purpose of each expense in a form reasonably required by the company."
+    "answer": "Synergy Inc reimburses employees for pre-approved expenses that are incurred during the proper performance of their duties. For reimbursement, employees must provide receipts or other evidence of the payment and purpose of each expense in a form reasonably required by the company.",
+    "alt_questions": [
+      "How do I get my work expenses paid back?",
+      "What's the process for getting reimbursed for stuff I bought for work?",
+      "Can I get my money back for things I bought for a project?",
+      "How do I claim back the money I spent on a business trip?",
+      "What do I need to do to get my expenses refunded by the company?"
+    ]
   },
   {
     "id": "hr_kb0028",
     "category": "Internship",
     "question": "What is the initial duration of the internship at the company, and under what circumstances can it be extended or terminated early?",
-    "answer": "The initial duration of the internship is three months from the date of joining. The internship period may be extended at the discretion of the management based on the intern's performance during weekly or monthly evaluations. Conversely, if the intern's performance does not meet the company's expectations despite prior intimation, the internship can be terminated without any notice period, and there will be no liability for any accrued wages or other benefits."
+    "answer": "The initial duration of the internship is three months from the date of joining. The internship period may be extended at the discretion of the management based on the intern's performance during weekly or monthly evaluations. Conversely, if the intern's performance does not meet the company's expectations despite prior intimation, the internship can be terminated without any notice period, and there will be no liability for any accrued wages or other benefits.",
+    "alt_questions": [
+      "How long is the internship supposed to last?",
+      "Can my internship be cut short if I'm not doing well?",
+      "Is it possible to extend my internship if I'm performing well?",
+      "What happens if I don't meet the expectations during my internship?",
+      "How can my internship be extended beyond the initial period?"
+    ]
   },
   {
     "id": "hr_kb0029",
     "category": "Recruitment & Referrals",
     "question": "How does the employee referral program work, and what is the bonus?",
-    "answer": "Employees can refer candidates for open positions through the HR website or by emailing HR. If the referred candidate is hired and completes about 45 days with the company, the referring employee receives a referral bonus of $2,000 for full-time, permanent roles requiring 2+ years of experience. HR and hiring managers are not eligible for referral bonuses on roles they hire for."
+    "answer": "Employees can refer candidates for open positions through the HR website or by emailing HR. If the referred candidate is hired and completes about 45 days with the company, the referring employee receives a referral bonus of $2,000 for full-time, permanent roles requiring 2+ years of experience. HR and hiring managers are not eligible for referral bonuses on roles they hire for.",
+    "alt_questions": [
+      "Can I get a bonus if I recommend someone for a job here?",
+      "What's the process for referring a friend to work with us?",
+      "How much do I earn if my referral gets hired?",
+      "Do I get any reward for suggesting a new hire?",
+      "How does the referral system work for bringing in new employees?"
+    ]
   },
   {
     "id": "hr_kb0030",
     "category": "Internship",
     "question": "How are interns evaluated during their internship period?",
-    "answer": "Interns are evaluated on a weekly or monthly basis to assess their performance and compatibility with the company's expectations and working culture. These evaluations focus on how well the interns adapt to the company environment and how effectively they handle the live projects during their training."
+    "answer": "Interns are evaluated on a weekly or monthly basis to assess their performance and compatibility with the company's expectations and working culture. These evaluations focus on how well the interns adapt to the company environment and how effectively they handle the live projects during their training.",
+    "alt_questions": [
+      "How do you check if an intern is doing well?",
+      "What do you look at when judging an intern's work?",
+      "Can you tell me how interns are reviewed here?",
+      "How often do interns get feedback on their performance?",
+      "What's the process for assessing interns during their time with us?"
+    ]
   },
   {
     "id": "hr_kb0031",
     "category": "Internship",
     "question": "What happens after the completion of the internship period?",
-    "answer": "Upon completion of the three-month internship period, if the company is satisfied with the intern's performance, their appointment may be confirmed. The decision regarding the performance assessment and subsequent confirmation is made by the management and is communicated through an email or in writing. The appointment is deemed confirmed only from the date specified in such communication."
+    "answer": "Upon completion of the three-month internship period, if the company is satisfied with the intern's performance, their appointment may be confirmed. The decision regarding the performance assessment and subsequent confirmation is made by the management and is communicated through an email or in writing. The appointment is deemed confirmed only from the date specified in such communication.",
+    "alt_questions": [
+      "What happens after my internship ends?",
+      "Will I get a job offer after my internship?",
+      "How do I know if my internship was successful?",
+      "When will I find out if I'm staying on after my internship?",
+      "Do I get a confirmation letter if my internship goes well?"
+    ]
   },
   {
     "id": "hr_kb0032",
     "category": "Leave & Attendance",
     "question": "What are the company holidays for this year, and how are floating holidays handled?",
-    "answer": "Synergy Inc publishes the annual holiday calendar on the HR website at the start of each year, and it includes public holidays observed by the company. Employees also get 2 floating holidays per year to use for personal, cultural, or religious occasions, with prior approval from their manager."
+    "answer": "Synergy Inc publishes the annual holiday calendar on the HR website at the start of each year, and it includes public holidays observed by the company. Employees also get 2 floating holidays per year to use for personal, cultural, or religious occasions, with prior approval from their manager.",
+    "alt_questions": [
+      "What days off do we get this year?",
+      "How do I find out about the days the office is closed?",
+      "Can I take a day off for a personal event?",
+      "Where can I see the list of holidays we have?",
+      "How do floating days off work here?"
+    ]
   },
   {
     "id": "hr_kb0033",
     "category": "Compensation & Benefits",
     "question": "What is the policy on overtime and compensation for working on weekends or holidays?",
-    "answer": "Non-exempt employees receive overtime pay for hours worked beyond the standard workweek, as required by law, and overtime must be approved by a manager in advance. Exempt employees are not eligible for overtime pay, but may receive compensatory time off for approved weekend or holiday work."
+    "answer": "Non-exempt employees receive overtime pay for hours worked beyond the standard workweek, as required by law, and overtime must be approved by a manager in advance. Exempt employees are not eligible for overtime pay, but may receive compensatory time off for approved weekend or holiday work.",
+    "alt_questions": [
+      "Do I get extra pay if I work on a Saturday?",
+      "What's the deal with working on holidays? Do I get time off later?",
+      "If I work more than 40 hours this week, do I get paid more?",
+      "Can I get paid extra for working on a Sunday?",
+      "How does weekend work affect my paycheck?"
+    ]
   },
   {
     "id": "hr_kb0034",
     "category": "Performance Management",
     "question": "What is the primary goal of the Performance Appraisal Policy at Synergy Inc?",
-    "answer": "The primary goal of the Performance Appraisal Policy is to enhance the effectiveness of the organization by fostering a well-motivated and competent workforce. This is achieved through a structured annual meeting that reviews past performance and sets future objectives aligned with both individual and organizational goals."
+    "answer": "The primary goal of the Performance Appraisal Policy is to enhance the effectiveness of the organization by fostering a well-motivated and competent workforce. This is achieved through a structured annual meeting that reviews past performance and sets future objectives aligned with both individual and organizational goals.",
+    "alt_questions": [
+      "How does the performance review at Synergy help me and the company?",
+      "What's the point of the yearly evaluation meeting here?",
+      "Why do we have these annual performance check-ins?",
+      "Can someone explain the goal of our performance reviews?",
+      "What are we trying to achieve with these appraisals at work?"
+    ]
   },
   {
     "id": "hr_kb0035",
     "category": "Performance Management",
     "question": "How often do performance appraisals occur and what does the process entail?",
-    "answer": "Performance appraisals at Synergy Inc are conducted annually, coinciding with an employee’s work anniversary month. The process includes a formal meeting where past achievements are reviewed, and a Personal Development Plan for the upcoming year is set. This meeting ensures that both the needs of the employee and the organization are addressed."
+    "answer": "Performance appraisals at Synergy Inc are conducted annually, coinciding with an employee’s work anniversary month. The process includes a formal meeting where past achievements are reviewed, and a Personal Development Plan for the upcoming year is set. This meeting ensures that both the needs of the employee and the organization are addressed.",
+    "alt_questions": [
+      "When do we have our yearly review meetings?",
+      "Can someone explain what happens during my work anniversary evaluation?",
+      "How often do we get feedback on our job performance?",
+      "What should I expect during my annual review with my manager?",
+      "When is my performance meeting scheduled each year?"
+    ]
   },
   {
     "id": "hr_kb0036",
     "category": "Leave & Attendance",
     "question": "How many sick leaves per year are there at Synergy Inc.?",
-    "answer": "Employees at Synergy Inc. receive 7 days of paid sick leave per year. Please notify your manager and HR as early as possible when taking sick leave. A medical certificate may be required for absences longer than 3 consecutive days."
+    "answer": "Employees at Synergy Inc. receive 7 days of paid sick leave per year. Please notify your manager and HR as early as possible when taking sick leave. A medical certificate may be required for absences longer than 3 consecutive days.",
+    "alt_questions": [
+      "How many sick days do we get each year at Synergy?",
+      "What's the annual allowance for sick leave here?",
+      "If I'm unwell, how many days can I take off without losing pay?",
+      "Can someone remind me how many sick days we have annually?",
+      "How many days can I call in sick before needing a doctor's note?"
+    ]
   },
   {
     "id": "hr_kb0037",
     "category": "Leave & Attendance",
     "question": "How many total leaves per year are there at Synergy Inc.?",
-    "answer": "Employees receive 22 days of paid leave per year: 7 days of sick leave, 10 days of vacation, and 5 days of unscheduled leave for situations such as bereavement or medical appointments. In addition, the company observes public holidays and 2 floating holidays each year."
+    "answer": "Employees receive 22 days of paid leave per year: 7 days of sick leave, 10 days of vacation, and 5 days of unscheduled leave for situations such as bereavement or medical appointments. In addition, the company observes public holidays and 2 floating holidays each year.",
+    "alt_questions": [
+      "How many days off do we get at Synergy each year?",
+      "What's the total number of paid days off I can take annually?",
+      "Can someone remind me how many vacation and sick days we have?",
+      "How much leave time do we get, including sick days and holidays?",
+      "What's the breakdown of our yearly leave days, including any extra days?"
+    ]
   },
   {
     "id": "hr_kb0038",
     "category": "Workplace Policies & Conduct",
     "question": "What is the WFH policy?",
-    "answer": "The standard WFH policy allows up to two days of remote work per week, typically Monday and Friday. Synergy Inc. encourages hybrid work with at least three days in the office, and most employees come in on Tuesday, Wednesday, and Thursday. Exceptions can be made with your supervisor's approval."
+    "answer": "The standard WFH policy allows up to two days of remote work per week, typically Monday and Friday. Synergy Inc. encourages hybrid work with at least three days in the office, and most employees come in on Tuesday, Wednesday, and Thursday. Exceptions can be made with your supervisor's approval.",
+    "alt_questions": [
+      "Can I work from home on Mondays and Fridays?",
+      "How many days can I do remote work each week?",
+      "What's the rule for working from home?",
+      "Do I need to be in the office every day?",
+      "Can I switch my work-from-home days if I talk to my boss?"
+    ]
   },
   {
     "id": "hr_kb0039",
     "category": "Compensation & Benefits",
     "question": "When is payday?",
-    "answer": "Synergy Inc. pays employees bi-weekly, which means every two weeks. Salaries are deposited directly into your bank account. If payday falls on a weekend or holiday, you will be paid on the preceding business day."
+    "answer": "Synergy Inc. pays employees bi-weekly, which means every two weeks. Salaries are deposited directly into your bank account. If payday falls on a weekend or holiday, you will be paid on the preceding business day.",
+    "alt_questions": [
+      "When do we get our paychecks?",
+      "Is payday this Friday or next?",
+      "What happens if payday is on a holiday?",
+      "How often do we get paid?",
+      "Do we get paid early if payday is on a weekend?"
+    ]
   },
   {
     "id": "hr_kb0040",
     "category": "Compensation & Benefits",
     "question": "How does vesting work?",
-    "answer": "Restricted stock options vest at 25% of the original grant each year, starting after your first year with the company. This means you earn the right to your shares gradually over four years. If you leave before shares have vested, the unvested portion is generally forfeited. Please refer to your grant agreement for exact terms."
+    "answer": "Restricted stock options vest at 25% of the original grant each year, starting after your first year with the company. This means you earn the right to your shares gradually over four years. If you leave before shares have vested, the unvested portion is generally forfeited. Please refer to your grant agreement for exact terms.",
+    "alt_questions": [
+      "When do I get my stock shares?",
+      "How long until my stock options are mine?",
+      "What happens to my shares if I quit early?",
+      "Can you explain how my stock options become available?",
+      "Do I lose my shares if I leave the company before they fully vest?"
+    ]
   },
   {
     "id": "hr_kb0041",
     "category": "Expenses & Reimbursement",
     "question": "How do I submit a reimbursement?",
-    "answer": "To request reimbursement for approved business expenses, fill out the reimbursement form on the HR website and attach itemized receipts. Submit it to your manager for approval within 30 days of the expense. Approved reimbursements are paid with your next regular paycheck."
+    "answer": "To request reimbursement for approved business expenses, fill out the reimbursement form on the HR website and attach itemized receipts. Submit it to your manager for approval within 30 days of the expense. Approved reimbursements are paid with your next regular paycheck.",
+    "alt_questions": [
+      "What's the process for getting my money back for work expenses?",
+      "Where do I send my receipts to get reimbursed?",
+      "Can someone tell me how to claim back what I spent on a business trip?",
+      "How do I get paid back for stuff I bought for work?",
+      "Need to know how to file for a refund on my work purchases."
+    ]
   },
   {
     "id": "hr_kb0042",
     "category": "Compensation & Benefits",
     "question": "What is the salary structure?",
-    "answer": "Compensation at Synergy Inc. consists of a base salary and a performance bonus of up to 20% of base salary. Sales and marketing roles may also earn commissions or sales incentives. Benefits include health insurance, a retirement plan with a company match of up to 6%, and eligibility for equity or stock options."
+    "answer": "Compensation at Synergy Inc. consists of a base salary and a performance bonus of up to 20% of base salary. Sales and marketing roles may also earn commissions or sales incentives. Benefits include health insurance, a retirement plan with a company match of up to 6%, and eligibility for equity or stock options.",
+    "alt_questions": [
+      "How does my pay get calculated here?",
+      "Can someone explain how bonuses work at Synergy?",
+      "What's included in my benefits package?",
+      "Do we get any extra money for hitting targets?",
+      "How does the company help with retirement savings?"
+    ]
   },
   {
     "id": "hr_kb0043",
     "category": "Compensation & Benefits",
     "question": "How do I submit my tax declaration?",
-    "answer": "To set your tax withholding, submit IRS Form W-4 to HR or Payroll when you join and any time your situation changes. Your annual individual tax return is filed directly with the IRS using Form 1040, U.S. Individual Income Tax Return. Synergy Inc. provides your Form W-2 by the end of January to use when filing. Please consult a tax professional for personal tax advice."
+    "answer": "To set your tax withholding, submit IRS Form W-4 to HR or Payroll when you join and any time your situation changes. Your annual individual tax return is filed directly with the IRS using Form 1040, U.S. Individual Income Tax Return. Synergy Inc. provides your Form W-2 by the end of January to use when filing. Please consult a tax professional for personal tax advice.",
+    "alt_questions": [
+      "How do I update my tax info with HR?",
+      "Where do I get the form for my tax withholding?",
+      "What do I need to file my taxes this year?",
+      "When will I receive my W-2 from the company?",
+      "Who should I talk to about changing my tax deductions?"
+    ]
+  },
+  {
+    "id": "hr_kb0044",
+    "category": "Onboarding & Induction",
+    "question": "What do I do on my first day?",
+    "answer": "On your first day, your manager will greet you and introduce you to your colleagues. You'll receive your new badge and sign a set of HR forms, including your benefits enrollment. IT will give you a working laptop that is already set up with all the standard software and tools, and your work email will have been set up before you join. You'll also be given orientation and training videos, which you need to complete within your first week.",
+    "alt_questions": [
+      "What should I expect on my first day at work?",
+      "Can someone tell me what happens when I start my new job?",
+      "What's the process for my first day at the office?",
+      "How long do I have to finish the orientation and training videos?",
+      "How do I get set up with my work computer and email on day one?"
+    ]
   }
 ]

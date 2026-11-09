@@ -1,0 +1,344 @@
+[
+  {
+    "id": "hr-a01",
+    "category": "hr",
+    "question": "How many days of paid leave do I get each year?",
+    "reference": "22 days of paid leave per year: 7 days of sick leave, 10 days of vacation and 5 days of unscheduled leave (e.g. bereavement, medical appointments). Public holidays and 2 floating holidays are on top of that.",
+    "expected_sources": [
+      "hr_kb0037"
+    ]
+  },
+  {
+    "id": "hr-a02",
+    "category": "hr",
+    "question": "How many sick days do I get, and do I need a doctor's note?",
+    "reference": "7 days of paid sick leave per year. Notify your manager and HR as early as possible. A medical certificate may be required for absences longer than 3 consecutive days.",
+    "expected_sources": [
+      "hr_kb0036"
+    ]
+  },
+  {
+    "id": "hr-a03",
+    "category": "hr",
+    "question": "How much is the referral bonus and when is it paid?",
+    "reference": "$2,000, for referring someone hired into a full-time, permanent role requiring 2+ years of experience. It is paid after the referred employee has stayed about 45 days. HR members (and hiring managers for their own roles) are not eligible.",
+    "expected_sources": [
+      "hr_kb0013",
+      "hr_kb0029"
+    ]
+  },
+  {
+    "id": "hr-a04",
+    "category": "hr",
+    "question": "What is the notice period if I resign?",
+    "reference": "2 weeks' written notice. Synergy Inc may agree to a shorter notice period or a buyout at its discretion, depending on business needs and handover status; discuss it with your manager and HR.",
+    "expected_sources": [
+      "hr_kb0024"
+    ]
+  },
+  {
+    "id": "hr-a05",
+    "category": "hr",
+    "question": "How many days a week can I work from home?",
+    "reference": "Up to two days of remote work per week, typically Monday and Friday, with at least three days in the office (most people come in Tuesday to Thursday). Exceptions need the supervisor's approval.",
+    "expected_sources": [
+      "hr_kb0038"
+    ]
+  },
+  {
+    "id": "hr-a06",
+    "category": "hr",
+    "question": "How do I get reimbursed for a business expense?",
+    "reference": "Fill out the reimbursement form on the HR website, attach itemized receipts, and submit it to your manager for approval within 30 days of the expense. Expenses must be pre-approved/business related. Approved reimbursements are paid with the next regular paycheck.",
+    "expected_sources": [
+      "hr_kb0041",
+      "hr_kb0027"
+    ]
+  },
+  {
+    "id": "hr-a07",
+    "category": "hr",
+    "question": "When will I get my final settlement after I leave?",
+    "reference": "Typically processed within 30 days of the last working day. It includes pending salary, payment for unused earned leave and other dues, minus deductions such as unreturned company assets, and is paid once exit formalities are complete and all company property is returned.",
+    "expected_sources": [
+      "hr_kb0015"
+    ]
+  },
+  {
+    "id": "hr-a08",
+    "category": "hr",
+    "question": "How long is probation for new joiners?",
+    "reference": "30 days. The manager reviews performance near the end, and HR confirms employment in writing if satisfactory. Probation may be extended once if more time is needed.",
+    "expected_sources": [
+      "hr_kb0023"
+    ]
+  },
+  {
+    "id": "hr-a09",
+    "category": "hr",
+    "question": "How do my stock options vest?",
+    "reference": "Restricted stock options vest at 25% of the original grant each year, starting after the first year, so over four years. Unvested shares are generally forfeited if you leave; the grant agreement has the exact terms.",
+    "expected_sources": [
+      "hr_kb0040"
+    ]
+  },
+  {
+    "id": "hr-a10",
+    "category": "hr",
+    "question": "What is the dress code?",
+    "reference": "Business casual: clean, neat and appropriate for a professional setting. Casual attire is allowed on Fridays or designated days; dress formally when meeting clients.",
+    "expected_sources": [
+      "hr_kb0001"
+    ]
+  },
+  {
+    "id": "hr-a11",
+    "category": "hr",
+    "question": "How do I change the bank account my salary goes to?",
+    "reference": "Notify the Human Resource Department by email at least 7 working days before the date the change should take effect.",
+    "expected_sources": [
+      "hr_kb0025"
+    ]
+  },
+  {
+    "id": "hr-a12",
+    "category": "hr",
+    "question": "I'm resigning. What's my notice period, and when do I get my final settlement?",
+    "reference": "HR: 2 weeks written notice, which may be shortened or bought out at the company's discretion. Final settlement is usually processed within 30 days of the last working day, after exit formalities and return of company property.",
+    "expected_sources": [
+      "hr_kb0024",
+      "hr_kb0015"
+    ]
+  },
+  {
+    "id": "it-a01",
+    "category": "it",
+    "question": "I forgot my password, how do I reset it?",
+    "reference": "Use the self-service password reset portal and click 'Forgot password', verify your identity with your registered mobile number, personal email or MFA app, then create a new password. If that fails, contact the IT Service Desk.",
+    "expected_sources": [
+      "it_kb0001"
+    ]
+  },
+  {
+    "id": "it-a02",
+    "category": "it",
+    "question": "What are the password rules?",
+    "reference": "At least 12 characters with uppercase and lowercase letters, numbers and symbols. The last 10 passwords can't be reused, no personal information such as name or birthday. Passwords expire every 90 days, with a reminder beforehand.",
+    "expected_sources": [
+      "it_kb0002"
+    ]
+  },
+  {
+    "id": "it-a03",
+    "category": "it",
+    "question": "My account is locked after too many login attempts. What now?",
+    "reference": "Accounts lock after 5 failed sign-in attempts. The lock clears by itself after 30 minutes, or you can unlock it immediately via the self-service portal. If you still can't sign in, contact the IT Service Desk to verify your identity and unlock it.",
+    "expected_sources": [
+      "it_kb0005"
+    ]
+  },
+  {
+    "id": "it-a04",
+    "category": "it",
+    "question": "My VPN keeps dropping when I work from home.",
+    "reference": "Make sure the home internet connection is stable, close and reopen the VPN client, check you have the latest client version, try a different network, and avoid letting the computer sleep while connected. If it continues, submit a ticket with the error message and time of disconnection.",
+    "expected_sources": [
+      "it_kb0016"
+    ]
+  },
+  {
+    "id": "it-a05",
+    "category": "it",
+    "question": "I lost my company phone in a taxi, what should I do?",
+    "reference": "Report it to the IT Service Desk and IT Security right away so the device can be remotely locked and wiped if necessary, change work passwords from another device, and if it was stolen file a police report and share the report number with IT.",
+    "expected_sources": [
+      "it_kb0010"
+    ]
+  },
+  {
+    "id": "it-a06",
+    "category": "it",
+    "question": "How do I report a phishing email?",
+    "reference": "Don't click links or open attachments. Use the 'Report Phishing' button in Outlook, or forward the email as an attachment to the IT Security mailbox, then delete it.",
+    "expected_sources": [
+      "it_kb0025"
+    ]
+  },
+  {
+    "id": "it-a07",
+    "category": "it",
+    "question": "Can I install software on my work laptop myself?",
+    "reference": "Only software listed in the company software center. Anything else must be reviewed and approved by IT Security first because of security and licensing risks; unapproved software may be removed.",
+    "expected_sources": [
+      "it_kb0024"
+    ]
+  },
+  {
+    "id": "it-a08",
+    "category": "it",
+    "question": "How do I set up MFA on my new phone?",
+    "reference": "If you still have the old phone: in account security settings add a new authenticator device, scan the QR code with the authenticator app on the new phone, then remove the old device. Without the old phone, contact the IT Service Desk to verify your identity and reset MFA.",
+    "expected_sources": [
+      "it_kb0004"
+    ]
+  },
+  {
+    "id": "it-a09",
+    "category": "it",
+    "question": "Can I save work files on a USB stick?",
+    "reference": "No. Work files must be stored in company-approved locations (corporate file share or cloud storage). USB drives are restricted, only allowed with IT approval, and must be encrypted.",
+    "expected_sources": [
+      "it_kb0028"
+    ]
+  },
+  {
+    "id": "it-a10",
+    "category": "it",
+    "question": "My laptop won't turn on.",
+    "reference": "Check the power cable and charger are connected and the battery is charged, hold the power button for 10 seconds, release and try again. If it still won't start, submit a high-priority ticket or contact the IT Service Desk, and don't open the device yourself.",
+    "expected_sources": [
+      "it_kb0032"
+    ]
+  },
+  {
+    "id": "it-a11",
+    "category": "it",
+    "question": "When do I have to finish security awareness training?",
+    "reference": "Within 30 days of joining, and then once every year. Access may be restricted until it's done if it isn't completed on time.",
+    "expected_sources": [
+      "it_kb0029"
+    ]
+  },
+  {
+    "id": "mixed-a01",
+    "category": "mixed",
+    "question": "When is payday, and how do I connect to the VPN?",
+    "reference": "HR: employees are paid bi-weekly (every two weeks) by direct deposit; if payday falls on a weekend or holiday, pay comes on the preceding business day. IT: install the approved VPN client from the software center, sign in with work credentials and MFA, connect before reaching internal systems, and disconnect when done.",
+    "expected_sources": [
+      "hr_kb0039",
+      "hr_kb0021",
+      "it_kb0015"
+    ]
+  },
+  {
+    "id": "mixed-a02",
+    "category": "mixed",
+    "question": "What's the WFH policy, and why can't I open internal sites from home?",
+    "reference": "HR: up to two remote days per week (typically Monday and Friday), at least three days in the office, exceptions with supervisor approval. IT: internal resources need the company VPN; if connected but still failing, disconnect/reconnect and restart the browser, then submit a ticket with the site name and error.",
+    "expected_sources": [
+      "hr_kb0038",
+      "it_kb0033",
+      "it_kb0017"
+    ]
+  },
+  {
+    "id": "mixed-a03",
+    "category": "mixed",
+    "question": "I'm starting next week: will my desk and laptop be ready, and when do I have to do security training?",
+    "reference": "HR: before arrival a desk and system are arranged, colleagues are briefed and a buddy is nominated; on the first day IT hands over a working laptop with the standard software and tools, and work email is set up before joining. IT: security awareness training must be completed within 30 days of joining and then yearly.",
+    "expected_sources": [
+      "hr_kb0019",
+      "hr_kb0044",
+      "it_kb0029"
+    ]
+  },
+  {
+    "id": "mixed-a04",
+    "category": "mixed",
+    "question": "How many sick days do I have, and how do I connect to the VPN from home?",
+    "reference": "HR: 7 days of paid sick leave per year; notify your manager and HR early; a medical certificate may be needed for absences over 3 consecutive days. IT: install the approved VPN client from the software center, sign in with work credentials and MFA, and connect before reaching internal systems.",
+    "expected_sources": [
+      "hr_kb0036",
+      "hr_kb0037",
+      "it_kb0015",
+      "it_kb0017"
+    ]
+  },
+  {
+    "id": "mixed-a05",
+    "category": "mixed",
+    "question": "I forgot my password. Also, how do I submit a reimbursement for a taxi?",
+    "reference": "IT: use the self-service password reset portal, click Forgot password, verify identity with registered mobile, personal email or MFA app, then set a new password; contact the IT Service Desk if it fails. HR: fill out the reimbursement form on the HR website with itemized receipts and submit it to your manager within 30 days; approved reimbursements are paid with the next paycheck.",
+    "expected_sources": [
+      "it_kb0001",
+      "hr_kb0041",
+      "hr_kb0027"
+    ]
+  },
+  {
+    "id": "mixed-a06",
+    "category": "mixed",
+    "question": "I'm joining next week. What happens on my first day, and how do I connect to the office Wi-Fi?",
+    "reference": "HR: on the first day the manager greets you and introduces colleagues, you receive a badge, sign HR forms including benefits enrollment, get a working laptop set up by IT, email is already set up, and orientation/training videos must be completed within the first week. IT: select the Synergy Inc corporate network and sign in with work email and password; personal devices use the guest network.",
+    "expected_sources": [
+      "hr_kb0044",
+      "hr_kb0019",
+      "it_kb0013"
+    ]
+  },
+  {
+    "id": "mixed-a07",
+    "category": "mixed",
+    "question": "How long is probation, and how do I set up MFA on my new phone?",
+    "reference": "HR: probation is 30 days; the manager reviews performance near the end and HR confirms employment in writing; it may be extended once. IT: with the old phone, add a new authenticator device in account security settings, scan the QR code with the new phone, then remove the old device; without the old phone, contact the IT Service Desk to verify identity and reset MFA.",
+    "expected_sources": [
+      "hr_kb0023",
+      "it_kb0004"
+    ]
+  },
+  {
+    "id": "mixed-a08",
+    "category": "mixed",
+    "question": "Can I add my spouse to my health insurance, and can I read work email on my personal phone?",
+    "reference": "HR: changes outside open enrollment are allowed after a qualifying life event such as marriage; enroll through the benefits portal on the HR website and contact HR for help. IT: yes, if the phone is enrolled in mobile device management and uses the approved email app, with a passcode and encryption; the company can remove only company data.",
+    "expected_sources": [
+      "hr_kb0003",
+      "it_kb0009"
+    ]
+  },
+  {
+    "id": "mixed-a09",
+    "category": "mixed",
+    "question": "What's the dress code, and my laptop is 4 years old - can I get a new one?",
+    "reference": "HR: business casual; clean, neat, professional; casual on Fridays or designated days; formal when meeting clients. IT: submit a hardware request in the IT service portal with manager approval; standard laptops are refreshed every 3 to 4 years.",
+    "expected_sources": [
+      "hr_kb0001",
+      "it_kb0008"
+    ]
+  },
+  {
+    "id": "oos-a01",
+    "category": "out_of_scope",
+    "question": "Does the company offer free gym memberships?",
+    "reference": "The knowledge base has no information on gym memberships. Moxa should say it doesn't have enough information and offer to raise a support ticket, without inventing a policy.",
+    "expected_sources": []
+  },
+  {
+    "id": "oos-a02",
+    "category": "out_of_scope",
+    "question": "How many weeks of paternity leave do I get?",
+    "reference": "The knowledge base has no information on paternity leave. Moxa should say it doesn't have enough information and offer to raise a support ticket, without inventing a number of weeks.",
+    "expected_sources": []
+  },
+  {
+    "id": "oos-a03",
+    "category": "out_of_scope",
+    "question": "The office printer is jammed, how do I fix it?",
+    "reference": "The knowledge base has no information on printers. Moxa should say it doesn't have enough information and offer to raise a support ticket, without giving generic troubleshooting steps.",
+    "expected_sources": []
+  },
+  {
+    "id": "oos-a04",
+    "category": "out_of_scope",
+    "question": "How do I book a meeting room?",
+    "reference": "The knowledge base has no information on booking meeting rooms. Moxa should say it doesn't have enough information and offer to raise a support ticket, without inventing a booking tool or process.",
+    "expected_sources": []
+  },
+  {
+    "id": "oos-a05",
+    "category": "out_of_scope",
+    "question": "What's the capital of France?",
+    "reference": "This is neither HR nor IT. Moxa should politely decline as outside what it can help with and steer back to HR/IT support, without answering the trivia question.",
+    "expected_sources": []
+  }
+]

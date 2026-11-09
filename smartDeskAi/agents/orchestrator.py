@@ -5,7 +5,7 @@ agents/orchestrator.py — Routes each employee message to hr_agent and/or it_ag
 import re
 from typing import Literal
 
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import AnyMessage, HumanMessage, SystemMessage
 from langgraph.types import Command, Send
 from pydantic import BaseModel, Field
 
@@ -43,10 +43,21 @@ HR_KEYWORDS = re.compile(
 class RoutingDecision(BaseModel):
     """Which specialist agents should handle the employee's latest message."""
     agents: list[AgentName] = Field(description="One or both of: hr_agent, it_agent")
+    hr_question: str = Field(default="", description=(
+        "Only when BOTH agents are selected: the HR part of the latest message, as a self-contained question. "
+        "Empty otherwise."))
+    it_question: str = Field(default="", description=(
+        "Only when BOTH agents are selected: the IT part of the latest message, as a self-contained question. "
+        "Empty otherwise."))
     reasoning: str = Field(description="One sentence explaining the routing choice")
 
 
 router = llm.with_structured_output(RoutingDecision)
+
+
+def routing_input(messages: list[AnyMessage]) -> list[AnyMessage]:
+    """What the LLM router sees: its instructions plus the recent conversation."""
+    return [SystemMessage(ORCHESTRATOR_PROMPT), *messages[-ROUTING_HISTORY:]]
 
 
 def extract_email(text: str) -> str | None:
@@ -85,11 +96,15 @@ def orchestrator(state: SmartDeskState) -> Command[AgentName]:
     latest = next((m for m in reversed(messages) if isinstance(m, HumanMessage)), None)
     latest_text = latest.text if latest else ""
 
-    # Remember the employee's email for the whole session as soon as they give it
-    email = resolve_employee_email(latest_text, state.get("employee_email"))
+    # Remember the employee's email for the whole session as soon as they give it;
+    # a signed-in employee's verified email is never replaced from chat
+    if state.get("email_verified"):
+        email = state.get("employee_email")
+    else:
+        email = resolve_employee_email(latest_text, state.get("employee_email"))
 
     try:
-        decision = router.invoke([SystemMessage(ORCHESTRATOR_PROMPT), *messages[-ROUTING_HISTORY:]])
+        decision = router.invoke(routing_input(messages))
     except Exception as e:
         logger.exception("Routing LLM call failed, using keyword fallback: %s", e)
         decision = fallback_route(latest_text)
@@ -97,7 +112,15 @@ def orchestrator(state: SmartDeskState) -> Command[AgentName]:
     agents = list(dict.fromkeys(decision.agents)) or ["hr_agent"]
     logger.info("Routing %r -> %s (%s)", latest_text[:120], agents, decision.reasoning)
 
-    task: AgentTask = {"messages": messages[-AGENT_HISTORY:], "employee_email": email}
+    # A mixed HR + IT message is split by the router, so each agent gets only its own part to answer
+    parts = {"hr_agent": decision.hr_question.strip(), "it_agent": decision.it_question.strip()}
+    split = len(agents) > 1 and all(parts[agent] for agent in agents)
+    if split:
+        logger.info("Split mixed message: %s", {agent: parts[agent] for agent in agents})
+
+    def task(agent: AgentName) -> AgentTask:
+        return {"messages": messages[-AGENT_HISTORY:], "employee_email": email, "question": parts[agent] if split else None}
+
     return Command(
         update={
             "employee_email": email,
@@ -105,5 +128,5 @@ def orchestrator(state: SmartDeskState) -> Command[AgentName]:
             "routing_reasoning": decision.reasoning,
             "agent_responses": None,  # clear the previous turn's answers
         },
-        goto=[Send(agent, task) for agent in agents],
+        goto=[Send(agent, task(agent)) for agent in agents],
     )

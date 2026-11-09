@@ -1,0 +1,92 @@
+[
+  {"id": "hr-01", "category": "hr", "messages": [{"role": "user", "content": "How many days of annual leave do I get per year?"}], "expected": ["hr_agent"]},
+  {"id": "hr-02", "category": "hr", "messages": [{"role": "user", "content": "When is salary credited each month?"}], "expected": ["hr_agent"]},
+  {"id": "hr-03", "category": "hr", "messages": [{"role": "user", "content": "Does our health insurance cover my parents?"}], "expected": ["hr_agent"]},
+  {"id": "hr-04", "category": "hr", "messages": [{"role": "user", "content": "How do I claim reimbursement for a client dinner?"}], "expected": ["hr_agent"]},
+  {"id": "hr-05", "category": "hr", "messages": [{"role": "user", "content": "What is the notice period if I resign?"}], "expected": ["hr_agent"]},
+  {"id": "hr-06", "category": "hr", "messages": [{"role": "user", "content": "Is there a dress code on Fridays?"}], "expected": ["hr_agent"]},
+  {"id": "hr-07", "category": "hr", "messages": [{"role": "user", "content": "How do I report harassment by my manager?"}], "expected": ["hr_agent"]},
+  {"id": "hr-08", "category": "hr", "messages": [{"role": "user", "content": "When does the annual performance review cycle start?"}], "expected": ["hr_agent"]},
+  {"id": "hr-09", "category": "hr", "messages": [{"role": "user", "content": "Do I get a bonus if I refer a friend who gets hired?"}], "expected": ["hr_agent"]},
+  {"id": "hr-10", "category": "hr", "messages": [{"role": "user", "content": "how long is paternity leave"}], "expected": ["hr_agent"]},
+  {"id": "hr-11", "category": "hr", "messages": [{"role": "user", "content": "My payslip shows the wrong tax deduction, can you raise a ticket?"}], "expected": ["hr_agent"]},
+  {"id": "hr-12", "category": "hr", "messages": [{"role": "user", "content": "What should I bring on my first day for induction?"}], "expected": ["hr_agent"]},
+
+  {"id": "it-01", "category": "it", "messages": [{"role": "user", "content": "I forgot my password, how do I reset it?"}], "expected": ["it_agent"]},
+  {"id": "it-02", "category": "it", "messages": [{"role": "user", "content": "The VPN keeps disconnecting when I work from home."}], "expected": ["it_agent"]},
+  {"id": "it-03", "category": "it", "messages": [{"role": "user", "content": "My laptop screen is cracked, please raise a ticket."}], "expected": ["it_agent"]},
+  {"id": "it-04", "category": "it", "messages": [{"role": "user", "content": "How do I set up MFA on my new phone?"}], "expected": ["it_agent"]},
+  {"id": "it-05", "category": "it", "messages": [{"role": "user", "content": "Outlook is not syncing my calendar."}], "expected": ["it_agent"]},
+  {"id": "it-06", "category": "it", "messages": [{"role": "user", "content": "Can I install Docker Desktop on my work machine?"}], "expected": ["it_agent"]},
+  {"id": "it-07", "category": "it", "messages": [{"role": "user", "content": "I got a suspicious email asking for my login details."}], "expected": ["it_agent"]},
+  {"id": "it-08", "category": "it", "messages": [{"role": "user", "content": "The office wifi is really slow on the 3rd floor"}], "expected": ["it_agent"]},
+  {"id": "it-09", "category": "it", "messages": [{"role": "user", "content": "I need access to the shared finance drive."}], "expected": ["it_agent"]},
+  {"id": "it-10", "category": "it", "messages": [{"role": "user", "content": "Can I get a second monitor and a headset?"}], "expected": ["it_agent"]},
+  {"id": "it-11", "category": "it", "messages": [{"role": "user", "content": "My account got locked after too many attempts"}], "expected": ["it_agent"]},
+
+  {"id": "both-01", "category": "both", "messages": [{"role": "user", "content": "How many sick days do I have, and how do I connect to the VPN from home?"}], "expected": ["hr_agent", "it_agent"]},
+  {"id": "both-02", "category": "both", "messages": [{"role": "user", "content": "I'm joining next week. What's the onboarding schedule and when will I get my laptop?"}], "expected": ["hr_agent", "it_agent"]},
+  {"id": "both-03", "category": "both", "messages": [{"role": "user", "content": "I'm resigning. What's my notice period, and how do I return my laptop?"}], "expected": ["hr_agent", "it_agent"]},
+  {"id": "both-04", "category": "both", "messages": [{"role": "user", "content": "Reset my Outlook password please. Also, can I claim internet costs as an expense?"}], "expected": ["hr_agent", "it_agent"]},
+  {"id": "both-05", "category": "both", "messages": [{"role": "user", "content": "Raise two tickets: my mouse is broken, and my reimbursement from March hasn't been paid."}], "expected": ["hr_agent", "it_agent"]},
+
+  {"id": "smalltalk-01", "category": "small_talk", "messages": [{"role": "user", "content": "Hi there!"}], "expected": ["hr_agent"]},
+  {"id": "smalltalk-02", "category": "small_talk", "messages": [{"role": "user", "content": "Thanks, that was really helpful."}], "expected": ["hr_agent"]},
+  {"id": "smalltalk-03", "category": "small_talk", "messages": [{"role": "user", "content": "Who are you and what can you help with?"}], "expected": ["hr_agent"]},
+
+  {"id": "oos-01", "category": "out_of_scope", "messages": [{"role": "user", "content": "What's the weather in Paris tomorrow?"}], "expected": ["hr_agent"]},
+  {"id": "oos-02", "category": "out_of_scope", "messages": [{"role": "user", "content": "Write me a poem about cats."}], "expected": ["hr_agent"]},
+  {"id": "oos-03", "category": "out_of_scope", "messages": [{"role": "user", "content": "Can you recommend a good restaurant near the office?"}], "expected": ["hr_agent"]},
+
+  {"id": "status-01", "category": "ticket_status", "messages": [{"role": "user", "content": "What is the status of my VPN ticket?"}], "expected": ["it_agent"]},
+  {"id": "status-02", "category": "ticket_status", "messages": [{"role": "user", "content": "Any update on my reimbursement ticket?"}], "expected": ["hr_agent"]},
+  {"id": "status-03", "category": "ticket_status", "messages": [{"role": "user", "content": "What is the status of my ticket?"}], "expected": ["hr_agent"]},
+  {"id": "status-04", "category": "ticket_status", "messages": [{"role": "user", "content": "Show me all my open tickets."}], "expected": ["hr_agent"]},
+
+  {"id": "followup-01", "category": "follow_up", "messages": [
+    {"role": "user", "content": "My laptop won't turn on."},
+    {"role": "assistant", "content": "I'm sorry about that. Try holding the power button for 15 seconds with the charger connected. If it still doesn't start, would you like me to raise an IT ticket?"},
+    {"role": "user", "content": "yes please"}
+  ], "expected": ["it_agent"]},
+  {"id": "followup-02", "category": "follow_up", "messages": [
+    {"role": "user", "content": "My expense claim was rejected but I had receipts."},
+    {"role": "assistant", "content": "I can raise an HR ticket so the finance team reviews it. What email address should I use for the ticket?"},
+    {"role": "user", "content": "priya.sharma@synergy.com"}
+  ], "expected": ["hr_agent"]},
+  {"id": "followup-03", "category": "follow_up", "messages": [
+    {"role": "user", "content": "How do I connect to the VPN?"},
+    {"role": "assistant", "content": "Open the GlobalProtect client, enter vpn.synergy.com as the portal and sign in with your work account [IT-012]."},
+    {"role": "user", "content": "It says the certificate is invalid."}
+  ], "expected": ["it_agent"]},
+  {"id": "followup-04", "category": "follow_up", "messages": [
+    {"role": "user", "content": "How many days of annual leave do I get?"},
+    {"role": "assistant", "content": "Full-time employees get 20 days of paid annual leave per calendar year [HR-003]."},
+    {"role": "user", "content": "Can I carry the unused ones over?"}
+  ], "expected": ["hr_agent"]},
+  {"id": "followup-05", "category": "follow_up", "messages": [
+    {"role": "user", "content": "What's the status of my tickets?"},
+    {"role": "assistant", "content": "You have two open tickets: 1) IKCS-41 \"VPN drops every hour\" (IT) 2) IKCS-44 \"Missing travel reimbursement\" (HR). Which one would you like details on?"},
+    {"role": "user", "content": "the second one"}
+  ], "expected": ["hr_agent"]},
+  {"id": "followup-06", "category": "follow_up", "messages": [
+    {"role": "user", "content": "My keyboard has stopped working."},
+    {"role": "assistant", "content": "Here is the ticket I will create: Summary: Keyboard not working, Priority: Medium. Shall I go ahead?"},
+    {"role": "user", "content": "Make it high priority, I can't work at all."}
+  ], "expected": ["it_agent"]},
+
+  {"id": "switch-01", "category": "topic_switch", "messages": [
+    {"role": "user", "content": "How do I apply for maternity leave?"},
+    {"role": "assistant", "content": "Submit a request in the HR portal at least 8 weeks before your expected leave date [HR-021]."},
+    {"role": "user", "content": "Thanks. Separately, raise one more: my mouse is broken."}
+  ], "expected": ["it_agent"]},
+  {"id": "switch-02", "category": "topic_switch", "messages": [
+    {"role": "user", "content": "Reset my password please."},
+    {"role": "assistant", "content": "I've created IT ticket IKCS-50 \"Password reset\" for you."},
+    {"role": "user", "content": "Great. Now, how many sick days am I allowed?"}
+  ], "expected": ["hr_agent"]},
+  {"id": "switch-03", "category": "topic_switch", "messages": [
+    {"role": "user", "content": "Is there a policy on working from home?"},
+    {"role": "assistant", "content": "Yes, employees may work from home up to two days a week with manager approval [HR-030]."},
+    {"role": "user", "content": "Okay, and which VPN client do I need for that?"}
+  ], "expected": ["it_agent"]}
+]

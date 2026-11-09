@@ -1,0 +1,900 @@
+[
+  {
+    "id": "hr-r01",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Can I wear jeans to work?",
+    "expected": [
+      "hr_kb0001"
+    ]
+  },
+  {
+    "id": "hr-r02",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "I have a complaint about my manager, who do I go to?",
+    "expected": [
+      "hr_kb0002"
+    ]
+  },
+  {
+    "id": "hr-r03",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How do I add my spouse to my medical plan?",
+    "expected": [
+      "hr_kb0003"
+    ]
+  },
+  {
+    "id": "hr-r04",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Am I protected if I'm treated unfairly because of my religion?",
+    "expected": [
+      "hr_kb0004",
+      "hr_kb0005"
+    ]
+  },
+  {
+    "id": "hr-r05",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Can I get rehired if I used to work here before?",
+    "expected": [
+      "hr_kb0006"
+    ]
+  },
+  {
+    "id": "hr-r06",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Do you make accommodations for disabled applicants during interviews?",
+    "expected": [
+      "hr_kb0011",
+      "hr_kb0008"
+    ]
+  },
+  {
+    "id": "hr-r07",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How much do I get if a friend I recommend gets hired?",
+    "expected": [
+      "hr_kb0013",
+      "hr_kb0029"
+    ]
+  },
+  {
+    "id": "hr-r08",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How do I recommend someone for an open job?",
+    "expected": [
+      "hr_kb0012",
+      "hr_kb0029"
+    ]
+  },
+  {
+    "id": "hr-r09",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How long after my last day do I get my final paycheck?",
+    "expected": [
+      "hr_kb0015"
+    ]
+  },
+  {
+    "id": "hr-r10",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Will my desk and laptop be ready on my first day?",
+    "expected": [
+      "hr_kb0019",
+      "hr_kb0044"
+    ]
+  },
+  {
+    "id": "hr-r11",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Am I allowed to do freelance work on the side?",
+    "expected": [
+      "hr_kb0020"
+    ]
+  },
+  {
+    "id": "hr-r12",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How often do we get paid?",
+    "expected": [
+      "hr_kb0021",
+      "hr_kb0039"
+    ]
+  },
+  {
+    "id": "hr-r13",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "When will my salary be reviewed for a raise?",
+    "expected": [
+      "hr_kb0022"
+    ]
+  },
+  {
+    "id": "hr-r14",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How long am I on trial when I join?",
+    "expected": [
+      "hr_kb0023"
+    ]
+  },
+  {
+    "id": "hr-r15",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How much notice do I have to give before quitting?",
+    "expected": [
+      "hr_kb0024"
+    ]
+  },
+  {
+    "id": "hr-r16",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "I switched banks, how do I update where my salary goes?",
+    "expected": [
+      "hr_kb0025"
+    ]
+  },
+  {
+    "id": "hr-r17",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Who should I tell if I'm sick and can't come in today?",
+    "expected": [
+      "hr_kb0026",
+      "hr_kb0036"
+    ]
+  },
+  {
+    "id": "hr-r18",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Can my internship be extended beyond three months?",
+    "expected": [
+      "hr_kb0028"
+    ]
+  },
+  {
+    "id": "hr-r19",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Do interns get a full-time offer at the end?",
+    "expected": [
+      "hr_kb0031"
+    ]
+  },
+  {
+    "id": "hr-r20",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Is the office closed on public holidays this year?",
+    "expected": [
+      "hr_kb0032"
+    ]
+  },
+  {
+    "id": "hr-r21",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Do I get extra pay for working on Saturday?",
+    "expected": [
+      "hr_kb0033"
+    ]
+  },
+  {
+    "id": "hr-r22",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "When is my annual performance review?",
+    "expected": [
+      "hr_kb0035"
+    ]
+  },
+  {
+    "id": "hr-r23",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How many vacation days do I get each year?",
+    "expected": [
+      "hr_kb0037"
+    ]
+  },
+  {
+    "id": "hr-r24",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Can I work from home on Fridays?",
+    "expected": [
+      "hr_kb0038"
+    ]
+  },
+  {
+    "id": "hr-r25",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "When do my stock options become mine?",
+    "expected": [
+      "hr_kb0040"
+    ]
+  },
+  {
+    "id": "hr-r26",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How do I get paid back for a client dinner I paid for?",
+    "expected": [
+      "hr_kb0041",
+      "hr_kb0027"
+    ]
+  },
+  {
+    "id": "hr-r27",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "How big is the annual bonus?",
+    "expected": [
+      "hr_kb0042"
+    ]
+  },
+  {
+    "id": "hr-r28",
+    "kb": "hr",
+    "category": "paraphrase",
+    "query": "Where do I submit my W-4 to change tax withholding?",
+    "expected": [
+      "hr_kb0043"
+    ]
+  },
+  {
+    "id": "hr-k01",
+    "kb": "hr",
+    "category": "keyword",
+    "query": "sick leave",
+    "expected": [
+      "hr_kb0036",
+      "hr_kb0037"
+    ]
+  },
+  {
+    "id": "hr-k02",
+    "kb": "hr",
+    "category": "keyword",
+    "query": "referral bonus",
+    "expected": [
+      "hr_kb0013",
+      "hr_kb0029"
+    ]
+  },
+  {
+    "id": "hr-k03",
+    "kb": "hr",
+    "category": "keyword",
+    "query": "probation",
+    "expected": [
+      "hr_kb0023"
+    ]
+  },
+  {
+    "id": "hr-k04",
+    "kb": "hr",
+    "category": "keyword",
+    "query": "notice period",
+    "expected": [
+      "hr_kb0024"
+    ]
+  },
+  {
+    "id": "hr-k05",
+    "kb": "hr",
+    "category": "keyword",
+    "query": "health insurance enrollment",
+    "expected": [
+      "hr_kb0003"
+    ]
+  },
+  {
+    "id": "hr-t01",
+    "kb": "hr",
+    "category": "typo",
+    "query": "whats the dresscode",
+    "expected": [
+      "hr_kb0001"
+    ]
+  },
+  {
+    "id": "hr-t02",
+    "kb": "hr",
+    "category": "typo",
+    "query": "how meny sick leaves do i get",
+    "expected": [
+      "hr_kb0036",
+      "hr_kb0037"
+    ]
+  },
+  {
+    "id": "hr-o01",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Does the company offer free gym memberships?",
+    "expected": []
+  },
+  {
+    "id": "hr-o02",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "What is the parking policy at the office?",
+    "expected": []
+  },
+  {
+    "id": "hr-o03",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "How many weeks of paternity leave do I get?",
+    "expected": []
+  },
+  {
+    "id": "hr-o04",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "What's the capital of France?",
+    "expected": []
+  },
+  {
+    "id": "hr-o05",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "How many weeks of maternity leave do I get?",
+    "expected": []
+  },
+  {
+    "id": "hr-o06",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Can I carry over unused vacation days into next year?",
+    "expected": []
+  },
+  {
+    "id": "hr-o07",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Does the company pay for professional certifications or tuition?",
+    "expected": []
+  },
+  {
+    "id": "hr-o08",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Can HR give me a letter confirming my employment for a mortgage application?",
+    "expected": []
+  },
+  {
+    "id": "hr-o09",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Is there a relocation package if I move cities for this job?",
+    "expected": []
+  },
+  {
+    "id": "hr-o10",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Will I keep my health insurance after I resign, and for how long?",
+    "expected": []
+  },
+  {
+    "id": "hr-o11",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Can I take a six-month unpaid sabbatical?",
+    "expected": []
+  },
+  {
+    "id": "hr-o12",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "How do I nominate a colleague for an employee recognition award?",
+    "expected": []
+  },
+  {
+    "id": "hr-o13",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Can I switch from full-time to part-time hours?",
+    "expected": []
+  },
+  {
+    "id": "hr-o14",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Does the company offer counseling or an employee assistance program?",
+    "expected": []
+  },
+  {
+    "id": "hr-o15",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "How much life insurance coverage does the company provide?",
+    "expected": []
+  },
+  {
+    "id": "hr-o16",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Does Synergy offer a commuter or public transit subsidy?",
+    "expected": []
+  },
+  {
+    "id": "hr-o17",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "How do I change my last name in HR records after getting married?",
+    "expected": []
+  },
+  {
+    "id": "hr-o18",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Is there a company holiday party this year?",
+    "expected": []
+  },
+  {
+    "id": "hr-o19",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Can I bring my dog to the office?",
+    "expected": []
+  },
+  {
+    "id": "hr-o20",
+    "kb": "hr",
+    "category": "out_of_scope",
+    "query": "Who won the football game last night?",
+    "expected": []
+  },
+  {
+    "id": "it-r01",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I forgot my login password and can't get in",
+    "expected": [
+      "it_kb0001"
+    ]
+  },
+  {
+    "id": "it-r02",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "How long does my new password need to be?",
+    "expected": [
+      "it_kb0002"
+    ]
+  },
+  {
+    "id": "it-r03",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I got a new phone, how do I move my authenticator app?",
+    "expected": [
+      "it_kb0004"
+    ]
+  },
+  {
+    "id": "it-r04",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I typed my password wrong too many times and now I'm blocked",
+    "expected": [
+      "it_kb0005"
+    ]
+  },
+  {
+    "id": "it-r05",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I need permission to open the finance team's shared drive",
+    "expected": [
+      "it_kb0006"
+    ]
+  },
+  {
+    "id": "it-r06",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "My laptop is really sluggish lately",
+    "expected": [
+      "it_kb0007"
+    ]
+  },
+  {
+    "id": "it-r07",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "My laptop is four years old, can I get a new one?",
+    "expected": [
+      "it_kb0008"
+    ]
+  },
+  {
+    "id": "it-r08",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Can I read work emails on my own iPhone?",
+    "expected": [
+      "it_kb0009",
+      "it_kb0019"
+    ]
+  },
+  {
+    "id": "it-r09",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I left my work phone in a taxi",
+    "expected": [
+      "it_kb0010"
+    ]
+  },
+  {
+    "id": "it-r10",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "My second screen shows no signal",
+    "expected": [
+      "it_kb0011"
+    ]
+  },
+  {
+    "id": "it-r11",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "How do I get a new headset for calls?",
+    "expected": [
+      "it_kb0012"
+    ]
+  },
+  {
+    "id": "it-r12",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "The wireless keeps cutting out in the meeting room",
+    "expected": [
+      "it_kb0014"
+    ]
+  },
+  {
+    "id": "it-r13",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "The VPN drops every few minutes when I work from home",
+    "expected": [
+      "it_kb0016"
+    ]
+  },
+  {
+    "id": "it-r14",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I can't open the intranet from my house",
+    "expected": [
+      "it_kb0033",
+      "it_kb0017"
+    ]
+  },
+  {
+    "id": "it-r15",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Is it safe to work from the hotel Wi-Fi on a business trip?",
+    "expected": [
+      "it_kb0018"
+    ]
+  },
+  {
+    "id": "it-r16",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Outlook says my inbox is over its storage limit",
+    "expected": [
+      "it_kb0020"
+    ]
+  },
+  {
+    "id": "it-r17",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Salesforce is throwing errors, who do I call?",
+    "expected": [
+      "it_kb0022"
+    ]
+  },
+  {
+    "id": "it-r18",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I need a copy of Adobe Acrobat Pro for my job",
+    "expected": [
+      "it_kb0023"
+    ]
+  },
+  {
+    "id": "it-r19",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Am I allowed to download Spotify on my work laptop?",
+    "expected": [
+      "it_kb0024"
+    ]
+  },
+  {
+    "id": "it-r20",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "I got a weird email asking me to verify my bank details",
+    "expected": [
+      "it_kb0025",
+      "it_kb0035"
+    ]
+  },
+  {
+    "id": "it-r21",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Oops, I typed my credentials into a fake login page",
+    "expected": [
+      "it_kb0026"
+    ]
+  },
+  {
+    "id": "it-r22",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Can I copy project files to a thumb drive?",
+    "expected": [
+      "it_kb0028"
+    ]
+  },
+  {
+    "id": "it-r23",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "Do I have to do the cybersecurity course?",
+    "expected": [
+      "it_kb0029"
+    ]
+  },
+  {
+    "id": "it-r24",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "My PC won't power on at all",
+    "expected": [
+      "it_kb0032"
+    ]
+  },
+  {
+    "id": "it-r25",
+    "kb": "it",
+    "category": "paraphrase",
+    "query": "How do I set an automatic reply while I'm on vacation?",
+    "expected": [
+      "it_kb0034"
+    ]
+  },
+  {
+    "id": "it-k01",
+    "kb": "it",
+    "category": "keyword",
+    "query": "VPN setup",
+    "expected": [
+      "it_kb0015"
+    ]
+  },
+  {
+    "id": "it-k02",
+    "kb": "it",
+    "category": "keyword",
+    "query": "SSO login",
+    "expected": [
+      "it_kb0003"
+    ]
+  },
+  {
+    "id": "it-k03",
+    "kb": "it",
+    "category": "keyword",
+    "query": "office wifi",
+    "expected": [
+      "it_kb0013"
+    ]
+  },
+  {
+    "id": "it-k04",
+    "kb": "it",
+    "category": "keyword",
+    "query": "CRM access",
+    "expected": [
+      "it_kb0021"
+    ]
+  },
+  {
+    "id": "it-k05",
+    "kb": "it",
+    "category": "keyword",
+    "query": "data retention",
+    "expected": [
+      "it_kb0030"
+    ]
+  },
+  {
+    "id": "it-t01",
+    "kb": "it",
+    "category": "typo",
+    "query": "how do i reset my pasword",
+    "expected": [
+      "it_kb0001",
+      "it_kb0031"
+    ]
+  },
+  {
+    "id": "it-t02",
+    "kb": "it",
+    "category": "typo",
+    "query": "my acount is lockd",
+    "expected": [
+      "it_kb0005"
+    ]
+  },
+  {
+    "id": "it-o01",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I book a meeting room?",
+    "expected": []
+  },
+  {
+    "id": "it-o02",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "The office printer is jammed",
+    "expected": []
+  },
+  {
+    "id": "it-o03",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I join a Zoom webinar as a panelist?",
+    "expected": []
+  },
+  {
+    "id": "it-o04",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "Recommend a good pizza place nearby",
+    "expected": []
+  },
+  {
+    "id": "it-o05",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I add an email signature in Outlook?",
+    "expected": []
+  },
+  {
+    "id": "it-o06",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I recover a file I accidentally deleted from the shared drive?",
+    "expected": []
+  },
+  {
+    "id": "it-o07",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "My webcam shows a black screen in video calls",
+    "expected": []
+  },
+  {
+    "id": "it-o08",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "My Bluetooth headphones won't pair with my laptop",
+    "expected": []
+  },
+  {
+    "id": "it-o09",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I sync my work calendar with my personal Google Calendar?",
+    "expected": []
+  },
+  {
+    "id": "it-o10",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I clear my browser cache?",
+    "expected": []
+  },
+  {
+    "id": "it-o11",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "Which antivirus do we use, and how do I run a scan?",
+    "expected": []
+  },
+  {
+    "id": "it-o12",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I create a shared team mailbox or distribution list?",
+    "expected": []
+  },
+  {
+    "id": "it-o13",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I change the PIN for my desk phone voicemail?",
+    "expected": []
+  },
+  {
+    "id": "it-o14",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I share my screen in a Teams meeting?",
+    "expected": []
+  },
+  {
+    "id": "it-o15",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "Can I get more OneDrive storage space?",
+    "expected": []
+  },
+  {
+    "id": "it-o16",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I record a meeting and where is the recording saved?",
+    "expected": []
+  },
+  {
+    "id": "it-o17",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "My laptop fan is really loud and it gets very hot",
+    "expected": []
+  },
+  {
+    "id": "it-o18",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "How do I add the office printer to my laptop?",
+    "expected": []
+  },
+  {
+    "id": "it-o19",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "Write me a Python script that sorts a list",
+    "expected": []
+  },
+  {
+    "id": "it-o20",
+    "kb": "it",
+    "category": "out_of_scope",
+    "query": "What's the weather forecast for tomorrow?",
+    "expected": []
+  }
+]

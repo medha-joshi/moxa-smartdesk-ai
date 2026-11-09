@@ -8,6 +8,7 @@ from smartDeskAi.agents.prompts import SYNTHESIZER_PROMPT
 from smartDeskAi.config import llm
 from smartDeskAi.logger import setup_logger
 from smartDeskAi.state import SmartDeskState
+from smartDeskAi.tools.rag import add_citations
 
 logger = setup_logger("smartDeskAi.agents.synthesizer")
 
@@ -35,5 +36,11 @@ def synthesizer(state: SmartDeskState) -> dict:
         except Exception as e:
             logger.exception("Synthesizer LLM call failed, concatenating replies: %s", e)
             final = "\n\n".join(f"{AGENT_HEADINGS[r['agent']]}:\n{r['response']}" for r in responses)
+
+    try:
+        final = add_citations(final)
+    except Exception as e:
+        # Never lose the answer over citations; the raw [hr_kb0001] markers stay readable
+        logger.exception("Could not format citations: %s", e)
 
     return {"messages": [AIMessage(final, name="moxa")], "final_response": final}

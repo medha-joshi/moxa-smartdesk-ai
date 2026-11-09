@@ -12,5 +12,23 @@ dependencies = [
     "langchain-openai>=1.7.3",
     "langchain-qdrant>=1.1.0",
     "langgraph>=1.2.19",
+    "langsmith>=0.14.16",
     "pydantic>=2.14.2",
+    "streamlit>=1.66.1",
 ]
+
+[project.scripts]
+moxa = "smartDeskAi.main:main"
+moxa-ui = "smartDeskAi.launch_ui:run"
+moxa-hash-password = "smartDeskAi.auth:main"
+moxa-eval-routing = "smartDeskAi.evaluation.routing_eval:main"
+moxa-kb-phrasings = "smartDeskAi.tools.kb_phrasings:main"
+moxa-eval-retrieval = "smartDeskAi.evaluation.retrieval_eval:main"
+moxa-eval-answers = "smartDeskAi.evaluation.answer_eval:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["smartDeskAi"]

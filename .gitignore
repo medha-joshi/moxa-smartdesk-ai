@@ -12,4 +12,12 @@ wheels/
 # Local data / logs
 .qdrant_data/
 log/
+rating/
 .DS_Store
+
+# Streamlit secrets (registered employees and password hashes)
+.streamlit/secrets.toml
+
+# Editor skill symlinks into the local .venv
+.agents/skills/
+.claude/skills/

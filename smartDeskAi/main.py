@@ -29,7 +29,18 @@ TECHNICAL_ERROR = "I'm sorry, something went wrong on my side. Please try again 
 
 
 def new_session_config() -> dict:
-    return {"configurable": {"thread_id": str(uuid.uuid4())}}
+    """Graph config for a new session.
+
+    Metadata and tags are inherited by every child run, so in LangSmith each agent, tool and LLM call
+    carries the session's thread ID, and the "thread_id" metadata key groups the turns into one Thread.
+    """
+    thread_id = str(uuid.uuid4())
+    return {
+        "configurable": {"thread_id": thread_id},
+        "metadata": {"thread_id": thread_id},
+        "tags": [f"thread_id:{thread_id}"],
+        "run_name": "Moxa SmartDesk AI",
+    }
 
 
 def format_ticket_confirmation(ticket: dict) -> str:
@@ -40,7 +51,8 @@ def format_ticket_confirmation(ticket: dict) -> str:
         f"  Priority    : {ticket['priority']}\n"
         f"  Label       : {ticket['label']}\n"
         f"  Your email  : {ticket['email']}\n"
-        "Shall I go ahead? (yes / no — or type extra details to add them to the description)"
+        "Shall I go ahead? (yes / no — or type 'priority <low|medium|high|critical>' to override it "
+        "and/or 'details <extra details>' to add them to the description)"
     )
 
 
@@ -66,7 +78,7 @@ def run_turn(graph: CompiledStateGraph, user_text: str, config: dict) -> str:
 
 
 def load_knowledge_bases(reindex: bool) -> None:
-    print("Loading knowledge bases...")
+    logger.info("Loading knowledge bases...")
     try:
         if reindex:
             rebuild_knowledge_bases()
@@ -98,7 +110,6 @@ def main():
     if args.verbose:
         set_console_level(logging.INFO)
 
-    print("Welcome to SmartDeskAiAssistant!")
     load_knowledge_bases(args.reindex)
     config = new_session_config()
     print(f"\nMoxa: {GREETING}")
