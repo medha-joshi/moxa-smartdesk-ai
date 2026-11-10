@@ -1,0 +1,28 @@
+# Secrets: supplied at run time, never baked into the image
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local state and environments
+.venv/
+.qdrant_data/
+log/
+rating/
+__pycache__/
+*.py[oc]
+.pytest_cache/
+
+# Not needed in the image
+.git/
+.github/
+.vscode/
+.agents/
+.claude/
+.DS_Store
+tests/
+docs/*
+# ...except the diagram the UI's Architecture view renders
+!docs/high_level_architecture.svg
+Dockerfile
+compose.yaml

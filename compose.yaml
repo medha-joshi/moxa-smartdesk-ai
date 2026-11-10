@@ -1,0 +1,24 @@
+# Moxa web UI:  docker compose up --build   ->  http://localhost:8501
+#
+# Needs .env (API keys, see .env.example) and .streamlit/secrets.toml (registered employees, see
+# .streamlit/secrets.toml.example) next to this file.
+
+services:
+  moxa:
+    build: .
+    image: moxa-smartdesk-ai
+    env_file: .env
+    environment:
+      # Always use the container's volume for the embedded Qdrant index, whatever .env says
+      QDRANT_PATH: /app/data/qdrant
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml:ro
+      - moxa-data:/app/data   # Qdrant index: built on first start, reused afterwards
+      - moxa-logs:/app/log    # log/app.log
+    restart: unless-stopped
+
+volumes:
+  moxa-data:
+  moxa-logs:

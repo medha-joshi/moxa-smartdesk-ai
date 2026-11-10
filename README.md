@@ -280,6 +280,32 @@ The web UI opens on the **HR and IT Portal** landing page, and employees must si
 
 Sign-in lasts for the browser session: refreshing the page or choosing **Sign out** (under the employee's name, top right) returns to the landing page and starts a new conversation. The CLI (`uv run moxa`) has no sign-in.
 
+### Docker
+
+The image runs the web UI. It needs the same two files as a local run, both supplied at run time and never
+copied into the image: `.env` (API keys) and `.streamlit/secrets.toml` (registered employees, see
+[Sign-in](#sign-in-required)).
+
+```bash
+docker compose up --build        # build and start Moxa at http://localhost:8501
+docker compose logs -f moxa      # follow the console output
+docker compose down              # stop (the volumes, and so the Qdrant index, are kept)
+```
+
+- **Create `.streamlit/secrets.toml` before the first start.** If it is missing, Docker mounts an empty
+  directory in its place and sign-in stays unavailable.
+- **Models:** the BM25 and re-ranker models (~560 MB) are downloaded into the image when it is built,
+  so the first build takes a few minutes and containers start without downloading them. To bake in a
+  different re-ranker, build with `docker compose build --build-arg RERANK_MODEL=<model>` and set the same
+  `RERANK_MODEL` in `.env`.
+- **Data:** the embedded Qdrant index lives in the `moxa-data` volume and `log/app.log` in `moxa-logs`.
+  The knowledge bases are indexed on the first start (this calls OpenAI embeddings) and reused afterwards.
+  **Rebuild RAG** in the UI works in the container too. `docker compose down -v` deletes both volumes.
+- **Without Compose:** `docker build -t moxa-smartdesk-ai .` then
+  `docker run -p 8501:8501 --env-file .env -v "$PWD/.streamlit/secrets.toml:/app/.streamlit/secrets.toml:ro" -v moxa-data:/app/data moxa-smartdesk-ai`.
+  Unlike Compose, `docker run --env-file` keeps quotes as part of the value, so write
+  `LANGSMITH_PROJECT=Moxa SmartDesk AI` in `.env` without quotes.
+
 ### Example session
 
 ```
