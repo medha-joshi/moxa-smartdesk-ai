@@ -2,8 +2,8 @@
 
 ## Key points before diving into details
 
-1. The fictitious company is named **Synergy.Inc** and the SmartDeskAiAssistant is named **Moxa**.
-2. The HR and IT knowledge bases combine curated entries from these Hugging Face datasets: [EmbraceCoder/New_Hr_Policy](https://huggingface.co/datasets/EmbraceCoder/New_Hr_Policy), [w1z4rd3k/it-support-l1-ticket-classification](https://huggingface.co/datasets/w1z4rd3k/it-support-l1-ticket-classification) and LLM generated ones for sufficient depth and breadth
+1. I have given a fictitious name to the company **Synergy.Inc** and the SmartDeskAiAssistant as **Moxa**.
+2. The HR and IT knowledge bases are combined from curated entries from these Hugging Face datasets: [EmbraceCoder/New_Hr_Policy](https://huggingface.co/datasets/EmbraceCoder/New_Hr_Policy), [w1z4rd3k/it-support-l1-ticket-classification](https://huggingface.co/datasets/w1z4rd3k/it-support-l1-ticket-classification) and LLM generated ones for sufficient depth and breadth
 3. UI is implemented using Streamlit framework, there is a landing page with sign-in screen emulating VPN logging for Synergy.Inc. It takes work email and password that is automatically filled in by default (medha_j@yahoo.com/ikcapstone) and takes to the chatbot screen.
 4. Ticketing system used is Jira. Project space name is IK_Capstone and space key is IKCS. As Jira needs preadded user, medha_j@yahoo.com is already added, full ticketing flow can be excercised successfully by setting environment variable JIRA_EMAIL=medha_j@yahoo.com
 5. Known gaps for ticket creation workflow are following questions
@@ -14,8 +14,9 @@
 6. There are already some Jira tickets created by Reporter medha_j@yahoo.com for Jira ticket status flow
 7. The application is ready with full production grade logging (log rotation and maximum 3 log files kept), Langsmith monitoring and extensive evaluations making sure that chatbot doesn't hallucinate. Ihe evals include routing, faithfulness, correctness, and retrieval (Hybrid RAG) evals. Experimenting and fine tuning RAG eval was very educating experience changing model to BAAI/BGE-reranker and mainly adding automatic paraphrasing
 8. The code is written with the help Claude with very opinionated view and specific instructions given in statementsmartDeskAiAssitantSpec.txt which is prepared from the project problem statement
-9. I was the first one in the class to give a name to company and agent, to have comprehensive menu and UI driven Application, to experiment with evals and demo it to the whole class. Please check with our cohort mentor Boyu Wang for more details.
-10. I will be traveling from Nov 20 to Dec 17. Kindly contact on email (medha_j@yahoo.com) for any questions or if blockers (like Jira or Langsmith)
+9. I became the first one in the class to have comprehensive menu and all operations integrated on UI, to experiment extensively with evals, to give a name to company and agent and demo it to the whole class. Please check with our cohort mentor Boyu Wang for more details.
+11. On Github, this is the version (on docker branch) is with docker. There is a version without docker on the main branch.
+12. I will be traveling from Nov 20 to Dec 17 to India. Kindly contact on email (medha_j@yahoo.com) for any questions or if there are blockers (like Jira or Langsmith)
 
 
 ## Overview
