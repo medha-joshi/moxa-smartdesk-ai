@@ -16,6 +16,7 @@
 8. The code is written with the help Claude with very opinionated view and specific instructions given in statementsmartDeskAiAssitantSpec.txt which is prepared from the project problem statement
 9. I became the first one in the class to have comprehensive menu and all operations integrated on UI, to experiment extensively with evals, to give a name to company and agent and demo it to the whole class. Please check with our cohort mentor Boyu Wang for more details.
 11. On Github, this is the version (on main branch) without docker. There is a dockerized version on docker branch.
+12. Video about Moxa is <video controls src="moxa-smartdesk-ai-video-1.mp4" title="Title"></video>
 12. I will be traveling from Nov 20 to Dec 17 to India. Kindly contact on email (medha_j@yahoo.com) for any questions or if there are blockers (like Jira or Langsmith)
 
 ## Deployment
