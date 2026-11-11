@@ -19,7 +19,7 @@
 12. I will be traveling from Nov 20 to Dec 17 to India. Kindly contact on email (medha_j@yahoo.com) for any questions or if there are blockers (like Jira or Langsmith)
 
 ## Deployment
-Personal AWS account and EC2 instance (http://18.191.7.37:8501/). Deployment can be improved with SSL, endpoint can be given FQDN, with scalability and high availability configurations etc using ECS or EKS in future.
+Deployed on AWS account and EC2 instance (http://ec2-18-191-7-37.us-east-2.compute.amazonaws.com:8501/). Deployment can be  made production grade in future with SSL, endpoint can be given proper FQDN, with scalability and high availability configurations using ECS or EKS.
 
 ## Overview
 
